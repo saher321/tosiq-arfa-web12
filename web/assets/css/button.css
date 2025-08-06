@@ -1,0 +1,16 @@
+button{
+    background-color: #1C352D;
+    border: none;
+    color: #f1f1f1;
+    border-radius: 5px;
+    padding: 8px 20px;
+    transition: all .3s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #20765bff;
+    box-shadow: 3px 3px 5px #ccc;
+}
+button:active{
+    background-color: #11211cff;
+}
