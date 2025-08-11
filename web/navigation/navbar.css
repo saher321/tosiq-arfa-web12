@@ -10,7 +10,7 @@ body{
     padding: 12px;
 }
 .logo img{
-    /* mix-blend-mode: multiply; */
+    mix-blend-mode: multiply;
 }
 .links a{
     text-decoration: none;
