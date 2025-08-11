@@ -1,0 +1,14 @@
+body{
+    margin: 0px; padding: 0px;
+}
+.btn{
+    background-color: #3770ED;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    /* padding: 8px; */
+    /* padding: 8px 20px; */
+    padding: 8px 20px 8px 20px;
+    cursor: pointer;
+    margin: 20px 0px 0px 20px;
+}

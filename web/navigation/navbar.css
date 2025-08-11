@@ -1,0 +1,19 @@
+body{
+    margin: 0px; padding: 0px;
+    background-color: #deddddff; 
+}
+.navbar-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(45deg, yellow, yellowgreen);
+    padding: 12px;
+}
+.logo img{
+    /* mix-blend-mode: multiply; */
+}
+.links a{
+    text-decoration: none;
+    color: #333;
+    margin-left: 12px;
+}
