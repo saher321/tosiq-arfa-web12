@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        label{
+            display: block;
+            margin-top: 5px;
+        }
+        .name-field{
+            background-color: #d3bdbd;
+            box-shadow: 0 0 10px red;
+        }
+        div{
+            width: 300px;
+            margin: 10px;
+            padding: 4px;
+            box-shadow: 0 0 10px cyan;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="name-field">
+            <label>Name</label>
+            <input type="text" name="username" placeholder="Enter your name">
+        </div>
+
+        <div class="email-field">
+            <label>Email</label>
+            <input type="email" name="useremail" placeholder="Enter your email">
+        </div>
+
+        <div class="phoneno-field">
+            <label>Phone</label>
+            <input type="number" name="phoneno" placeholder="Enter your number">
+        </div>
+
+        <div class="password-field">
+            <label>Password</label>
+            <input type="password" name="password" placeholder="Enter your password">
+        </div>
+
+        <div class="date-field">
+            <label>DOB / Time</label>
+            <input type="date" name="dob"> | <input type="time" name="time">
+        </div>
+
+        <div class="file-field">
+            <label>Upload Profile Image</label>
+            <input type="file" name="userfile" accept=".exe">
+        </div>
+
+        <div class="btns-field">
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
