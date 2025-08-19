@@ -1,0 +1,41 @@
+h1{
+    color: #727272ff;
+    cursor: pointer;
+
+    position: relative;
+}
+
+/* pseudo element */
+h1::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 4px;
+    width: 0px;
+    background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    border-radius: 4px;
+    transition: all .3s;
+    z-index: -1;
+}
+
+h1::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    width: 0px;
+    background: #2A7B9B;
+background: linear-gradient(90deg, rgba(82, 42, 155, 1) 0%, rgba(165, 87, 199, 1) 50%, rgba(237, 83, 83, 1) 100%);
+    border-radius: 4px;
+    transition: all .3s;
+    z-index: -1;
+}
+h1:hover::after{
+    width: 100px;
+}
+h1:hover::before{
+    width: 100px;
+}
+
