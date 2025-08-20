@@ -1,0 +1,52 @@
+h1{
+    color: #6f6f6fff;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.child:not(.pseudo-element){
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    flex-grow: 1;
+}
+.pseudo-element{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    flex-grow: 1;
+}
+.pseudo-element::before{
+    content: "";
+    position: absolute;
+    height: inherit;
+    width: 0%;
+    background: linear-gradient(to right, #49ebc8ff, #55ee83ff);
+    z-index: -1;
+    transition: all .3s;
+}
+.pseudo-element:active::before{ width: 100% }
+/* Media query css */
+@media (width <= 576px){
+    body{
+        background-color: #333;
+    }
+    h1{
+        color: red;
+    }
+    .heading2{
+        display: none;
+    }
+}
+
+@media (width > 576px) and (width <= 768px){
+    body{
+        background-color: black;
+    }
+    h1{
+        color: yellowgreen;
+    }
+}
