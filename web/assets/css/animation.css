@@ -1,0 +1,64 @@
+
+.img{
+    height: 100px; width: 100px;
+    border-radius: 50%;
+    padding: 4px;
+    background-image: url("../images/profile.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.img::before{
+    height: 100px; width: 100px;
+    /* animation: box 3s infinite; */
+    position: absolute;
+    content: "";
+    border-top: 5px solid green;
+    border-left: 5px solid blue;
+    border-bottom: 5px solid yellowgreen;
+    border-right: 5px solid red;
+    border-radius: 50%;
+    animation: loading 3s linear infinite;
+    z-index: 1;
+    padding: 4px;
+    top: -5%;
+    left: -5%;
+    transform: -50% -50%; 
+}
+
+@keyframes loading{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+
+}
+/* css loader animation */
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  background: linear-gradient(0deg, rgba(255, 61, 0, 0.2) 33%, #ff3d00 100%);
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+.loader::after {
+  content: '';  
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #263238;
+}
+@keyframes rotation {
+  0% { transform: rotate(0deg) }
+  100% { transform: rotate(360deg)}
+} 
