@@ -1,0 +1,12 @@
+input[type="checkbox"] {
+  display: none;
+}
+span {
+  margin: 8px 0px 0px 0px;
+  display: none;
+  width: 200px;
+  background-color: yellowgreen;
+}
+input[type="checkbox"]:checked ~ span {
+  display: block;
+}
