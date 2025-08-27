@@ -1,0 +1,22 @@
+.setting-link {
+  color: green;
+}
+/* slider */
+.carousel-item > img {
+  height: 400px;
+  object-fit: cover;
+}
+
+/* badge css */
+.success-badge {
+  background-color: #daffec;
+  color: #468f44;
+}
+.warning-badge {
+  background-color: #f3f1beff;
+  color: #9f921cff;
+}
+.danger-badge {
+  background-color: #fbdfd8;
+  color: #85393c;
+}
