@@ -1,0 +1,47 @@
+/* css variable */
+:root {
+  --card-height: 200px;
+  --card-width: 150px;
+  --card-padding: 5px;
+
+  --box-radius: 4px;
+  --box-shadow: 0px 0px 5px #999;
+}
+
+.flip-card {
+  height: var(--card-height);
+  width: var(--card-width);
+  padding: var(--card-padding);
+  background-color: red;
+  border-radius: var(--box-radius);
+
+  box-shadow: var(--box-shadow);
+}
+.flip-card-inner {
+  position: relative;
+
+  transform-style: preserve-3d;
+  transition: all 0.3s;
+}
+.front-face,
+.back-face {
+  position: absolute;
+  backface-visibility: hidden;
+
+  border-radius: var(--box-radius);
+}
+.front-face {
+  background-color: yellow;
+
+  height: var(--card-height);
+  width: var(--card-width);
+}
+.back-face {
+  background-color: cyan;
+  height: var(--card-height);
+  width: var(--card-width);
+  transform: rotateY(180deg);
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}

@@ -7,12 +7,15 @@
 .flip-card-inner {
   position: relative;
   transform-style: preserve-3d;
+  transition: all 0.3s;
 }
 
 .front-side,
 .back-side {
   position: absolute;
-  backface-visibility: none;
+  backface-visibility: hidden;
+  height: 200px;
+  width: 150px;
 }
 
 .front-side {
