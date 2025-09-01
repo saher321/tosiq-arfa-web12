@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css" />
+
+    <style>
+      .form-check-input:checked {
+        background-color: blueviolet;
+        border-color: blueviolet;
+      }
+      /* badge css */
+      .success-badge {
+        background-color: #daffec;
+        color: #468f44;
+      }
+      .warning-badge {
+        background-color: #f3f1beff;
+        color: #9f921cff;
+      }
+      .danger-badge {
+        background-color: #fbdfd8;
+        color: #85393c;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container my-4">
+      <!-- Grid start -->
+
+      <h1>Table</h1>
+      <a href="myform.html" class="btn btn-primary">Back</a>
+      <!-- Button trigger modal/canvas -->
+      <button
+        type="button"
+        class="btn btn-success"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop"
+      >
+        Add Data
+      </button>
+      <button
+        class="btn btn-primary"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasWithBothOptions"
+        aria-controls="offcanvasWithBothOptions"
+      >
+        Add Data
+      </button>
+
+      <!-- table data -->
+      <div class="container">
+        <section class="my-4 content-table">
+          <h2 class="text-center">Content table</h2>
+          <table class="table table-bordered">
+            <thead class="table-light">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>
+                  <span class="badge success-badge">Active</span>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td><span class="badge danger-badge">Inactive</span></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>John</td>
+                <td>Doe</td>
+                <td><span class="badge warning-badge">Pending</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+
+      <!-- table data end -->
+    </div>
+
+    <!-- modal box code -->
+     <!-- Modal -->
+      <div
+        class="modal fade"
+        id="staticBackdrop"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                Add Data
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body row">
+              <div class="col-lg-12">
+                <label>First Name</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="col-lg-12">
+                <label>Last Name</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="col-lg-12">
+                <label>Status</label>
+                <select class="form-select">
+                  <option>Active</option>
+                  <option>Inactive</option>
+                  <option>Pending</option>
+                  <option>Cancel</option>
+                </select>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">Save</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- modal box code end -->
+
+    <!-- offcanvas code -->
+     <div
+        class="offcanvas offcanvas-start"
+        data-bs-scroll="true"
+        tabindex="-1"
+        id="offcanvasWithBothOptions"
+        aria-labelledby="offcanvasWithBothOptionsLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+            Backdrop with scrolling
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <form class="row">
+            <div class="col-lg-12">
+              <label>First Name</label>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="col-lg-12">
+              <label>Last Name</label>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="col-lg-12">
+              <label>Status</label>
+              <select class="form-select">
+                <option>Active</option>
+                <option>Inactive</option>
+                <option>Pending</option>
+                <option>Cancel</option>
+              </select>
+            </div>
+          </form>
+        </div>
+      </div>
+    <!-- offcanvas code end -->
+
+
+    <!-- JS -->
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
