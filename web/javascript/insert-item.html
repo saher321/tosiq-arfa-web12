@@ -9,13 +9,11 @@
     
     <input type="text" id="new-item">
     <button onclick="insertItem()" >Save</button>
-    <select>
-        <option>Pakistan</option>
-        <option>Indonesia</option>
-        <option>Saudi Arabia</option>
+    <select id="result" onchange="showSelected()">
+        
     </select>
 
-    <ul id="output"></ul>
+    <p id="output"></p>
 
     <!-- JS -->
      <script src="../assets/js/insertItem.js"></script>
