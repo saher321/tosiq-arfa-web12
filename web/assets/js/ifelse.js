@@ -9,7 +9,6 @@ function print() {
     // when requirement will be false
     console.log("Variable does not have value");
   }
-
   var x = 14;
   var y = 6;
 
