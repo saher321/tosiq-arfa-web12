@@ -4,6 +4,7 @@ function getDay(){
 
     switch (no) {
         case "1":
+            output.innerText = "Monday";
             break;
         case "2":
             output.innerText = "Tuesday";
