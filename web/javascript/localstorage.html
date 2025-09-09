@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Local storage</h1>
+    <input type="color" id="clr" oninput="changebg()" />
+
+    <!-- js -->
+    <script>
+        let bgClr = localStorage.getItem('bgClr');
+        console.log(bgClr);
+        document.body.style.backgroundColor = bgClr;
+
+        function changebg() {
+            let clr = document.getElementById("clr").value;
+            document.body.style.backgroundColor = clr;
+
+            // save color into lcoalstorage
+            localStorage.setItem("bgClr", clr);
+        }
+    </script>
+  </body>
+</html>
