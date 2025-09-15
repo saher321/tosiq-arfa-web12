@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <p id="txt"></p>
+
+    <input type="password" id="input-field">
+
+    <input type="checkbox" id="toggle-pswd" onclick="togglePassword()">
+
+    <!-- js -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script>
+        function togglePassword(){
+            let checkBox = document.getElementById("toggle-pswd");
+            let inputField = document.getElementById("input-field");
+            if (checkBox.checked) {
+                console.log("true");
+                inputField.setAttribute("type", "text")
+            } else {
+                console.log("false"); 
+                inputField.setAttribute("type", "password")
+            }
+        }
+        
+        $(document).ready(function (){
+            let text = "This is JQuery";
+            console.log(text);
+
+            $("#txt").text(text);
+            $("#input-field").val(text);
+
+            // $("#toggle-pswd").click(function(){
+            //     $(this).prop("checked") ?
+            //     $("#input-field").prop("type", "text") :
+            //     $("#input-field").prop("type", "password") 
+            // })
+            
+        })
+    </script>
+</body>
+</html>
