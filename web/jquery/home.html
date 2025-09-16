@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>
+        JQUERY
+    </h1>
+    <hr>
+    <h3> F&deg; to C&deg; Conversion </h3>
+
+    <input type="text" id="fr" placeholder="F">
+    <button id="convert">Convert</button>
+    <input type="text" id="cl" placeholder="C" readonly>
+
+    <hr>
+    <button id="btn">Click</button> <br>
+
+    <p id="text">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis repellat consectetur consequatur earum laboriosam illo laudantium, laborum assumenda enim voluptatum. Repellendus laboriosam, hic aspernatur corrupti inventore eveniet. Maiores, modi perspiciatis.
+    </p>
+
+    <input type="text" name="" id="">
+
+
+    <!-- js -->
+    <script src="../assets/js/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            
+            // console.log("Hello, world");
+
+            $("#btn").on("click", function(){
+                // alert("Function is called using jquery")
+                // $("#text").fadeToggle();
+                // $("#text").fadeToggle(3000); // 3s
+                $("#text").css({
+                   "color": "red",
+                   "background-color": "yellow"
+                });
+            });
+
+
+            // convert from F to C
+            $("#convert").on("click", function (){
+                let fValue = $("#fr").val();
+                let c = (Number(fValue) - 32) * 5 / 9;
+                // console.log(c.toFixed(2));
+                $("#cl").val(c.toFixed(2))
+            });
+            
+        })
+    </script>
+</body>
+</html>
