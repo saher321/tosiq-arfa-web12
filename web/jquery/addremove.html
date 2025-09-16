@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" id="myinput">
+    <button onclick="storedata()">Insert</button>
+
+    <ol id="list"></ol>
+
+    <script>
+        function storedata(){
+            let myInput = document.getElementById("myinput");
+            let list = document.getElementById("list");
+            
+            list.innerHTML +=
+            `
+            <li> ${myInput.value} 
+            
+                <button onclick="completed(this)"> Completed </button> |
+                <button onclick="remove(this)"> Remove </button>    
+            </li>
+            
+            ` ;
+            myInput.value = "";
+        }
+        function remove(current){
+            current.parentNode.remove();
+        }
+        function completed(current){
+            current.parentNode.style.color = "red";
+        }
+    </script>
+    
+</body>
+</html>
