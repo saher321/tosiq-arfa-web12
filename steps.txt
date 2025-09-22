@@ -1,0 +1,13 @@
+Step 1
+ open powershell and type this command
+
+ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+Step 2
+ Download and install NODEJS
+
+Step 3
+
+create any folder open it in your vs code and type
+
+in your terminal: npm create vite@latest
