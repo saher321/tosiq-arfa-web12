@@ -46,7 +46,7 @@ const Todo = () => {
                                 bg-amber-100 mb-1 p-1 rounded flex items-center justify-between'>
                                     <span>{item}</span>
                                     <button onClick={() => removeItem(i)}> 
-                                        <FaRegTrashAlt className='cursor-pointer bg-gray-300 p-1 rounded'/>
+                                        <FaRegTrashAlt className='cursor-pointer bg-red-400 p-1 rounded'/>
                                     </button>
                                 </div>
                             </li>

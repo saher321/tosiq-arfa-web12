@@ -1,0 +1,23 @@
+.btns button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer
+}
+.btns button:nth-child(1){
+    background-color: red;
+}
+.btns button:nth-child(2){
+    background-color: green
+}
+.btns button:nth-child(3){
+    background-color: blue;
+    color: #f1f1f1
+}
+
+.color-box{
+    margin-top: 12px;
+    border-radius: 5px;
+    height: 200px;
+    width: 400px
+}

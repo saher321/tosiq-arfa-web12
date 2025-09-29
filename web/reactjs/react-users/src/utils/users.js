@@ -8,8 +8,9 @@ const users = [
     {id: 2, name: "John", profile: user2, role: "User"},
     {id: 3, name: "Jane", profile: null, role: "User"},
     {id: 4, name: "Smantha", profile: user4, role: "User"},
-    {id: 5, name: "Alice", profile: user3, role: "User"},
-    {id: 6, name: "Carlo", profile: user5, role: "Admin"},
+    {id: 5, name: "Alice", profile: user5, role: "User"},
+    {id: 6, name: "Carlo", profile: user3, role: "Admin"},
+    {id: 7, name: "Ajax", profile: null, role: "Vendor"},
 ];
 
 export default users;
