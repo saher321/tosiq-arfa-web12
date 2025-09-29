@@ -6,7 +6,7 @@ import Sum from './Sum.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <App /> */}
-    <Sum />
+    <App />
+    {/* <Sum /> */}
   </StrictMode>,
 )
