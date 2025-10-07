@@ -34,7 +34,7 @@ const Users = () => {
                 {userList.length > 0 ?
                     userList.map((user, i)=>{
                         return (
-                            <div key={i} className='col-span-4'>
+                            <div key={i} className='lg:col-span-4 md:col-span-4 sm:col-span-6 max-sm:col-span-12'>
                                 <NavLink to={ `/users/${user.id}`}>
                                     <UserCard user={user}/>
                                 </NavLink>
