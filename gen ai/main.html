@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instructor Attendance 2024</title>
+    <style>
+      body {
+        font-family: "Roboto", Arial, sans-serif;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 20px;
+        color: #333;
+      }
+
+      .header {
+        background-color: #1a73e8;
+        color: white;
+        padding: 20px;
+        border-radius: 8px 8px 0 0;
+        position: relative;
+        overflow: hidden;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+
+      .header::before {
+        content: "";
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 80px;
+        height: 80px;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+      }
+
+      .header h2 {
+        margin: 0;
+        font-size: 24px;
+        z-index: 1;
+        position: relative;
+      }
+
+      .form-container {
+        background-color: white;
+        border-radius: 0 0 8px 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .email-info {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 10px;
+      }
+
+      .not-shared {
+        font-size: 12px;
+        color: #999;
+        margin-bottom: 15px;
+      }
+
+      .required-indicator {
+        color: #d93025;
+        font-size: 12px;
+        margin-bottom: 20px;
+      }
+
+      .field {
+        background-color: #e8f0fe;
+        border-radius: 4px;
+        padding: 15px;
+        margin-bottom: 15px;
+        border: 1px solid #e0e0e0;
+      }
+
+      .field label {
+        display: block;
+        font-weight: 500;
+        margin-bottom: 8px;
+        color: #202124;
+      }
+
+      select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #dadce0;
+        border-radius: 4px;
+        background-color: white;
+        font-size: 14px;
+      }
+
+      .radio-group {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .radio-group label {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        font-size: 14px;
+        color: #202124;
+        margin-bottom: 0;
+      }
+
+      .radio-group input[type="radio"] {
+        margin-right: 8px;
+        accent-color: #1a73e8;
+      }
+
+      /* Simple calendar approximation in header using CSS */
+      .header::after {
+        content: "";
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        width: 60px;
+        height: 60px;
+        background: linear-gradient(
+          to bottom,
+          #fff 0%,
+          #fff 20%,
+          #1a73e8 20%,
+          #1a73e8 100%
+        );
+        border-radius: 4px;
+        z-index: 1;
+      }
+
+      .header::before {
+        content: "📱";
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        font-size: 40px;
+        z-index: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h2>Instructor Attendance 2025</h2>
+    </div>
+    <div class="form-container">
+      <div class="email-info">pnymeet@gmail.com Switch account</div>
+      <div class="not-shared">Not shared</div>
+      <div class="required-indicator">* Indicates required question</div>
+
+      <div class="field">
+        <label for="instructor">Instructor Name *</label>
+        <select id="instructor">
+          <option>Choose</option>
+          <!-- Add more options as needed -->
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="tower">Arfa Tower *</label>
+        <select id="tower">
+          <option>Choose</option>
+          <!-- Add more options as needed -->
+        </select>
+      </div>
+
+      <div class="field">
+        <label>Class Mode *</label>
+        <div class="radio-group">
+          <label
+            ><input type="radio" name="classMode" value="physical" />
+            Physical</label
+          >
+          <label
+            ><input type="radio" name="classMode" value="online" />
+            Online</label
+          >
+          <label
+            ><input type="radio" name="classMode" value="both" /> Both (Physical
+            + Online)</label
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
