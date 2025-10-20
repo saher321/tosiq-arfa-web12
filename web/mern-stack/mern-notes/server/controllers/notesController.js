@@ -22,3 +22,21 @@ export const createNotes = async (req, res) => {
     console.log(`Something went wrong: \n ${error}`)
   }
 };
+
+export const deleteNotes = async (req, res) => {
+    const id = req.params.id
+    if (id) {
+        try {
+            const ok = await Note.findByIdAndDelete({_id: id});
+            if (ok) {
+                res.send({status: true, message: "Notes deleted successfully"})
+            } else {
+                res.send({status: true, message: "Notes is not found or action perform"})
+            }
+        } catch (error) {
+            console.log(`Error in delete fn(): \n ${error}`)
+        }
+    } else {
+        res.send({status: true, message: "Notes ID is not found"})
+    }
+}
