@@ -1,7 +1,7 @@
 import Note from "../models/notesModel.js";
 
 export const getAllNotes = async (req, res) => {
-  const notes = await Note.find({});
+  const notes = await Note.find({}).sort({updatedAt: -1});
   return res.send({ status: true, notes });
 };
 
@@ -29,14 +29,14 @@ export const deleteNotes = async (req, res) => {
         try {
             const ok = await Note.findByIdAndDelete({_id: id});
             if (ok) {
-                res.send({status: true, message: "Notes deleted successfully"})
+                res.send({status: true, message: "Note deleted successfully"})
             } else {
-                res.send({status: true, message: "Notes is not found or action perform"})
+                res.send({status: true, message: "Note is not found or action perform"})
             }
         } catch (error) {
             console.log(`Error in delete fn(): \n ${error}`)
         }
     } else {
-        res.send({status: true, message: "Notes ID is not found"})
+        res.send({status: true, message: "Note ID is not found"})
     }
-}
+};
