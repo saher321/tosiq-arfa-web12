@@ -55,7 +55,9 @@ const NotesList = () => {
                       className="max-sm:col-span-12 lg:col-span-4  md:col-span-4 sm:col-span-6"
                       key={i}
                     >
-                      <NotesItem note={note} setNotes={setNotes} />
+                      <NavLink to={`/notes/${note._id}`}>
+                        <NotesItem note={note} setNotes={setNotes} />
+                      </NavLink>
                     </div>
                   );
                 })}
