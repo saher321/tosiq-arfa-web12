@@ -56,3 +56,20 @@ export const detailNote = async (req, res) => {
     console.log(`Something went wrong: \n ${error}`)
   }
 };
+
+
+export const updateNote = async (req, res) => {
+  const id = req.params.id
+  const note = req.body
+
+  try {
+    const ok = await Note.findByIdAndUpdate({_id: id}, note);
+    if (ok) {
+      return res.send({ status: true, message: "Note updated successfully" });
+    } else {
+      return res.send({ status: false, message: "Failed to update note" });
+    }
+  } catch (error) {
+    console.log(`Something went wrong: \n ${error}`)
+  }
+}

@@ -8,7 +8,7 @@ const Routes = () => {
     const router = createBrowserRouter([
         { path: '/', element: <NotesList /> },
         { path: '/notes/create', element: <CreateNote /> },
-        { path: '/notes/:id', element: <DetailNote /> },
+        { path: '/notes/edit/:id', element: <DetailNote /> },
         { path: '*', element: <NotesList /> },
     ]);
     return (
