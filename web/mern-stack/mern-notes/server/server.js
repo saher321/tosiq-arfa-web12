@@ -1,10 +1,13 @@
 import express from 'express';
 import dotenv from 'dotenv';
+import cors from 'cors';
+
 import { connectDB } from './config/db.js';
 import notesRoute from './routes/notesRoute.js';
-import cors from 'cors'
+import userRoute from './routes/userRoute.js';
 
 dotenv.config();
+
 const app       = express();
 app.use(express.json());
 app.use(cors());
@@ -17,6 +20,8 @@ app.get('/', (req, res) => {
     res.send("Hello from server")
 });
 
+
+app.use(PREFIX, userRoute)
 app.use(PREFIX, notesRoute)
 
 connectDB().then(()=>{

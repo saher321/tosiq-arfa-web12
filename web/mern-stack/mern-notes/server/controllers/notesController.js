@@ -57,7 +57,6 @@ export const detailNote = async (req, res) => {
   }
 };
 
-
 export const updateNote = async (req, res) => {
   const id = req.params.id
   const note = req.body
