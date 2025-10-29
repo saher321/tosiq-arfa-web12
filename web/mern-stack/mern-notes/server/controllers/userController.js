@@ -8,14 +8,14 @@ export const register = async (req, res) => {
 
     const isValidePattern = validator.isEmail(email)
     if (!isValidePattern) {
-        return res.send({status: false, message: "Email pattern will be example@email.com"})
+        return res.send({status: false, code: 302, message: "Email pattern will be example@email.com"})
     }
 
     try {
         // check if email is exist
         let user = await User.findOne({email});
         if (user) {
-            return res.send({status: false, message: "This email is already in use"})
+            return res.send({status: false, code: 777, message: "This email is already in use"})
         }
 
         // hash password (encrypted password)
@@ -31,13 +31,13 @@ export const register = async (req, res) => {
         const result = await User.create(user);
 
         if (result) {
-            return res.send({status: true, message: "User registration successful", user})            
+            return res.send({status: true, code: 200, message: "User registration successful", user})       
         } else {
             return res.send({status: false, message: "Registration failed"})
         }
 
     } catch (error) {
-        return res.send({status: false, message: "Something went wrong"})        
+        return res.send({status: false, code: 500, message: "Something went wrong"})        
     }
 }
 

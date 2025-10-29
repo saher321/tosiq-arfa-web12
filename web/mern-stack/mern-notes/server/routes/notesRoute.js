@@ -4,11 +4,12 @@ import { authMiddleware } from '../middleware/authMiddleware.js';
 
 const notesRoute = express.Router();
 
-// public routes
+// // public routes
+
+// // protected routes
+notesRoute.use(authMiddleware);
 notesRoute.get('/notes', getAllNotes)
 
-// protected routes
-notesRoute.use(authMiddleware);
 notesRoute.post('/notes/create', createNotes)
 notesRoute.get('/notes/:id', detailNote)
 notesRoute.delete('/notes/delete/:id', deleteNotes)
