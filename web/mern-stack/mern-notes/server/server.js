@@ -5,6 +5,7 @@ import cors from 'cors';
 import { connectDB } from './config/db.js';
 import notesRoute from './routes/notesRoute.js';
 import userRoute from './routes/userRoute.js';
+import verifyUserRequest from './routes/verifyUserRequest.js';
 
 dotenv.config();
 
@@ -22,6 +23,7 @@ app.get('/', (req, res) => {
 
 
 app.use(PREFIX, userRoute)
+app.use(PREFIX, verifyUserRequest)
 app.use(PREFIX, notesRoute)
 
 connectDB().then(()=>{

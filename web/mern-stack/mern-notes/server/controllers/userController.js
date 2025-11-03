@@ -46,20 +46,20 @@ export const login = async (req, res) => {
 
     const isValidePattern = validator.isEmail(email)
     if (!isValidePattern) {
-        return res.send({status: false, message: "Email pattern will be example@email.com"})
+        return res.send({status: false, code: 302, message: "Email pattern will be example@email.com"})
     }
 
     try {
         // check if email is exist
         let user = await User.findOne({email});
         if (!user) {
-            return res.send({status: false, message: "User not found with this email"})
+            return res.send({status: false, code: 404, message: "User not found with this email"})
         }
 
         // compare password (encrypted password)
         const isMatched = await bcrypt.compare(password, user.password)
         if (!isMatched) {
-            return res.send({status: false, message: "Password didn't matched"})
+            return res.send({status: false, code: 402, message: "Password didn't matched"})
         }
         
         const userToken = jwt.sign({
@@ -69,7 +69,7 @@ export const login = async (req, res) => {
         
 
         if (userToken) {
-            return res.cookie("userToken", userToken).send({status: true, message: "User loggedin successful", userToken})            
+            return res.cookie("userToken", userToken).send({status: true, code: 200, message: "User loggedin successful", userToken})            
         } else {
             return res.send({status: false, message: "Logging failed"})
         }
