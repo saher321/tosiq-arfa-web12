@@ -14,7 +14,11 @@ const NotesList = () => {
       setIsLoading(true);
 
       try {
-        const result = await axios.get(ALL_NOTES);
+        const result = await axios.get(ALL_NOTES, {
+          headers: {
+            Authorization: `Bearer ${localStorage.getItem("userToken")}`
+          }
+        });
         console.log(result.data.notes);
         if (result.data && result.data.notes) {
           setNotes(result.data.notes);
@@ -28,6 +32,15 @@ const NotesList = () => {
     getAllNotes();
   }, []);
 
+  const handleLogout = () => {
+    if ( localStorage.getItem('userToken') ) {
+      localStorage.removeItem("userToken");
+      toast.success("Loggout successful")
+      window.location = '/login'
+      return;
+    }
+  }
+
   return (
     <>
       <div className="rounded bg-white/70 p-5 flex items-center justify-between">
@@ -38,7 +51,11 @@ const NotesList = () => {
             to={"/notes/create"}
           >
             Add Note
-          </NavLink>
+          </NavLink> | 
+          <button
+           onClick={handleLogout}
+           className="cursor-pointer bg-red-500 text-white p-1 rounded"
+          >Logout</button>
         </div>
       </div>
 

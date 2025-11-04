@@ -3,7 +3,7 @@ export const authMiddleware = async (req, res, next) => {
     const userToken = req.headers.authorization;
 
     if (!userToken) {
-        return res.send({status: false, code: 401, message: "Unauthorized! Please goto login page"})
+        return res.send({status: false, code: 401, message: "Unauthorized!"})
     }
 
     try {

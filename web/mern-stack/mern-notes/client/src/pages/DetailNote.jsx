@@ -32,7 +32,11 @@ const DetailNote = () => {
   const handleUpdateNote = async (data) => {
 
     try {
-      const success = await axios.patch(`${UPDATE_NOTE}/${params.id}`, data);
+      const success = await axios.patch(`${UPDATE_NOTE}/${params.id}`, data, {
+          headers: {
+            Authorization: `Bearer ${localStorage.getItem("userToken")}`
+          }
+        });
       if (success) {
         setIsLoading(true)
         toast.success(success.data.message, { duration: 3000 })

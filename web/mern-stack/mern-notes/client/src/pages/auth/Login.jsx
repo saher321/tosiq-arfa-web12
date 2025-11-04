@@ -22,17 +22,17 @@ const Login = () => {
     setIsLoading(true)
     try {
       const response = await axios.post(LOGIN_URL, data);
-      if (response.data.code == 302) {
-        toast.error(response.data.message);
-        return;
-      }
-      if (response.data.code == 402) {
-        toast.error(response.data.message);
-        return;
-      }
       if (response.data.code == 200) {
+        response.data.userToken && localStorage.setItem("userToken", response.data.userToken)
         toast.success(response.data.message, { duration: 3000 })
         navigate('/')
+        return;
+      } else if (response.data.code == 302) {
+        toast.error(response.data.message);
+        return;
+      } else if (response.data.code == 402) {
+        toast.error(response.data.message);
+        return;
       } else {
         toast.error(response.data.message, { duration: 3000 })
       }

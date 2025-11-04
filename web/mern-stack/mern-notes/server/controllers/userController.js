@@ -2,6 +2,7 @@ import bcrypt from "bcryptjs";
 import validator from 'validator';
 import jwt from 'jsonwebtoken'
 import User from "../models/userModel.js";
+import { sendEmail } from "../utils/sendEmail.js";
 
 export const register = async (req, res) => {
     const { name, email, password } = req.body;
@@ -41,7 +42,7 @@ export const register = async (req, res) => {
     }
 }
 
-export const login = async (req, res) => {
+export const login = async (req, res, next) => {
     const { email, password } = req.body;
 
     const isValidePattern = validator.isEmail(email)
@@ -62,6 +63,10 @@ export const login = async (req, res) => {
             return res.send({status: false, code: 402, message: "Password didn't matched"})
         }
         
+        const content = `
+        <h1>You have successfully loggedin to our system</h1>
+        `;
+
         const userToken = jwt.sign({
             userId: user?._id,
             userEmail: user?.email
@@ -69,7 +74,8 @@ export const login = async (req, res) => {
         
 
         if (userToken) {
-            return res.cookie("userToken", userToken).send({status: true, code: 200, message: "User loggedin successful", userToken})            
+            sendEmail('pnymeet@gmail.com', "Login Successful! ✨🎉", content)
+            return res.send({status: true, code: 200, message: "User loggedin successful", userToken})            
         } else {
             return res.send({status: false, message: "Logging failed"})
         }

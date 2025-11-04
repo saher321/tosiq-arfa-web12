@@ -11,8 +11,16 @@ const NotesItem = ({ note, setNotes }) => {
         if(!window.confirm("Are your sure you want to delete this?")) return;
         
         try {
-            const result = await axios.delete(`${DELETE_NOTE}/${id}`)
-            if (result) {
+            const result = await axios.delete(`${DELETE_NOTE}/${id}`, {
+                headers: {
+                    Authorization: `Bearer ${localStorage.getItem("userToken")}`
+                }
+            });
+            if (result.data && result.data.code == 401) {
+                toast.error(result.data.message)
+                return;
+            }
+            if (result.data && result.data.status) {
                 setNotes((prev) => prev.filter((note) => note._id !== id))
                 toast.success(result.data.message)
             } else {
