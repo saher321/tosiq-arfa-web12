@@ -93,7 +93,7 @@ export const sendOTP = async (req, res) => {
 
     try {
         const user = await User.findOne({email})
-        if (!user) return res.send({status: false, message: "User not found"});
+        if (!user) return res.send({status: false, code: 404, message: "User not found"});
         
         let otp = generateOTP();
 
@@ -102,7 +102,7 @@ export const sendOTP = async (req, res) => {
         This is your requested OTP: 
         <h3>${otp}</h3>
 
-        Don't one time password (OTP) to anyone
+        Don't share this one time password (OTP) to anyone
         `;
 
         sendEmail(user.email, "OTP for reset passsword", content);
@@ -111,7 +111,7 @@ export const sendOTP = async (req, res) => {
         user.isVerified = false;
         await user.save();
 
-        return res.send({status: true, message: "OTP has been send to your email"})
+        return res.send({status: true, code: 200, message: "OTP has been send to your email"})
 
     } catch (error) {
         console.log("Error: ", error)

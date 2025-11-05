@@ -5,6 +5,8 @@ import CreateNote from "../pages/CreateNote";
 import DetailNote from "../pages/DetailNote";
 import Login from "../pages/auth/Login";
 import Signup from "../pages/auth/Signup";
+import ForgotPassword from "../pages/auth/ForgotPassword";
+import VerifyOtp from "../pages/auth/VerifyOtp";
 
 const Routes = () => {
   const router = createBrowserRouter([
@@ -12,6 +14,14 @@ const Routes = () => {
     {
       path: "/login",
       element: <Login />,
+    },
+    {
+      path: "/forgot-password",
+      element: <ForgotPassword />,
+    },
+    {
+      path: "/verify-otp",
+      element: <VerifyOtp />,
     },
     {
       path: "/",
