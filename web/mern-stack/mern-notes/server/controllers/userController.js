@@ -3,6 +3,8 @@ import validator from 'validator';
 import jwt from 'jsonwebtoken'
 import User from "../models/userModel.js";
 import { sendEmail } from "../utils/sendEmail.js";
+import { generateOTP } from "../utils/generateOTP.js";
+
 
 export const register = async (req, res) => {
     const { name, email, password } = req.body;
@@ -84,3 +86,57 @@ export const login = async (req, res, next) => {
         return res.send({status: false, message: "Something went wrong"})        
     }
 }
+
+export const sendOTP = async (req, res) => {
+    const { email } = req.body;
+    if (!email) return res.send({status: false, message: "Email is not provided"})
+
+    try {
+        const user = await User.findOne({email})
+        if (!user) return res.send({status: false, message: "User not found"});
+        
+        let otp = generateOTP();
+
+        const content = `
+        Hi ${user.name}, 
+        This is your requested OTP: 
+        <h3>${otp}</h3>
+
+        Don't one time password (OTP) to anyone
+        `;
+
+        sendEmail(user.email, "OTP for reset passsword", content);
+
+        user.otp = otp;
+        user.isVerified = false;
+        await user.save();
+
+        return res.send({status: true, message: "OTP has been send to your email"})
+
+    } catch (error) {
+        console.log("Error: ", error)
+    }
+}
+
+export const verifyOTP = async (req, res) => {
+    const {email, otp} = req.body;
+
+    if (!otp) return res.send({status: false, message: "OTP is not provided"})
+    try {
+        const user = await User.findOne({email})
+        if (!user) return res.send({status: false, message: "User not found"});
+
+        if (otp != user.otp) return res.send({status: false, message: "OTP is not valid"});
+
+        user.otp = null;
+        user.isVerified = true;
+        await user.save();
+        return res.send({status: true, message: "Verified successful"})
+
+    } catch (error) {
+        console.log("Error: ", error)
+    }
+    
+}
+
+export const resetPassword = async (req, res) => {}
