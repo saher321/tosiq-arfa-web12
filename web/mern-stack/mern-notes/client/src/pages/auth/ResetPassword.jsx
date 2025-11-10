@@ -3,16 +3,16 @@ import React, { useState } from 'react'
 import { useForm } from 'react-hook-form';
 import toast from 'react-hot-toast';
 import { useNavigate } from 'react-router';
-import { VERIFY_OTP } from '../../resources/api.js'
+import { RESET_PASSWORD, VERIFY_OTP } from '../../resources/api.js'
 
-const VerifyOtp = () => {
+const ResetPassword = () => {
   const [isLoading, setIsLoading] = useState(false)
   const { register, handleSubmit } = useForm();
   const navigate = useNavigate();
 
-  const handleVerifyOtp = async (data) => {
-    if (!data.otp) {
-      toast.error("OTP field is required!", { duration: 3000 })
+  const handleResetPassword = async (data) => {
+    if (!data.newPassword) {
+      toast.error("New Password field is required!", { duration: 3000 })
       return;
     }
 
@@ -20,12 +20,13 @@ const VerifyOtp = () => {
     try {
       const newData = {
         email: localStorage.getItem("forgotUserEmail"),
-        otp: data.otp
+        newPassword: data.newPassword
       }
-      const response = await axios.post(VERIFY_OTP, newData);
+      const response = await axios.post(RESET_PASSWORD, newData);
       if (response.data.status == true) {
         toast.success(response.data.message)
-        navigate('/reset-password')
+        localStorage.getItem("forgotUserEmail") && localStorage.removeItem("forgotUserEmail")
+        navigate('/login')
         return;
       } else {
         toast.error(response.data.message);
@@ -40,23 +41,23 @@ const VerifyOtp = () => {
   return (
     <>
     <div className="rounded bg-white/70 p-5 flex items-center justify-between">
-        <div>Verify OTP</div>
+        <div>Reset Password</div>
       </div>
 
       <div className='my-5 p-5 rounded bg-white/30'>
         <div className='max-w-xl rounded bg-white/70 p-3'>
-          <form onSubmit={handleSubmit(handleVerifyOtp)}>
+          <form onSubmit={handleSubmit(handleResetPassword)}>
             <div className='my-3'>
-              <label className='block'>OTP</label>
-              <input {...register("otp")} type='text' className='w-full rounded p-3 shadow' placeholder='Enter OTP' />
+              <label className='block'>New Password</label>
+              <input {...register("newPassword")} type='text' className='w-full rounded p-3 shadow' placeholder='Enter new password' />
             </div>
             <div className='mt-3'>
               {isLoading ?
                 <button className="cursor-not-allowed px-4 py-2 rounded bg-blue-100">
-                  Verifying OTP...
+                  Password is reseting...
                 </button> :
                 <button className="cursor-pointer px-4 py-2 rounded bg-blue-100">
-                  Verify OTP
+                  Reset my password
                 </button>
               }
             </div>
@@ -67,4 +68,4 @@ const VerifyOtp = () => {
   )
 }
 
-export default VerifyOtp
+export default ResetPassword

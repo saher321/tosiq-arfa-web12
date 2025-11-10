@@ -139,4 +139,7 @@ export const verifyOTP = async (req, res) => {
     
 }
 
-export const resetPassword = async (req, res) => {}
+export const resetPassword = async (req, res) => {
+    const data = req.body;
+    console.log(data)
+}
