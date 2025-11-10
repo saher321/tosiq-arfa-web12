@@ -10,7 +10,7 @@ const ForgotPassword = () => {
   const { register, handleSubmit } = useForm();
   const navigate = useNavigate();
 
-  const handleUserLogin = async (data) => {
+  const handleForgotPassword = async (data) => {
     if (!data.email) {
       toast.error("Email field is required!", { duration: 3000 })
       return;
@@ -19,15 +19,13 @@ const ForgotPassword = () => {
     setIsLoading(true)
     try {
       const response = await axios.post(SEND_OTP, data);
-      if (response.data.code == 200) {
+      if (response.data.status == true) {
         toast.success(response.data.message)
+        localStorage.setItem("forgotUserEmail", data.email)
         navigate('/verify-otp')
-        return;
-      } else if (response.data.code == 404) {
+      } else {
         toast.error(response.data.message);
         return;
-      } else {
-        toast.error(response.data.message, { duration: 3000 })
       }
     } catch (error) {
       console.log("Something went wrong!", error)      
@@ -43,7 +41,7 @@ const ForgotPassword = () => {
 
       <div className='my-5 p-5 rounded bg-white/30'>
         <div className='max-w-xl rounded bg-white/70 p-3'>
-          <form onSubmit={handleSubmit(handleUserLogin)}>
+          <form onSubmit={handleSubmit(handleForgotPassword)}>
             <div className='my-3'>
               <label className='block'>Email</label>
               <input {...register("email")} type='email' className='w-full rounded p-3 shadow' placeholder='Enter your email' />
