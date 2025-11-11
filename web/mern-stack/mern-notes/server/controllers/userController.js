@@ -140,6 +140,30 @@ export const verifyOTP = async (req, res) => {
 }
 
 export const resetPassword = async (req, res) => {
-    const data = req.body;
-    console.log(data)
+    const { email, newPassword } = req.body;
+
+    try {
+        // check if email is exist
+        let user = await User.findOne({email});
+        if (!user) {
+            return res.send({status: false, code: 777, message: "User not found with this email"})
+        }
+
+        // hash password (encrypted password)
+        const salt = await bcrypt.genSalt(10);
+        const myHashPassword = await bcrypt.hash(newPassword, salt);
+
+        // new password
+        user.password = myHashPassword;
+        const ok = await user.save();
+
+        if (ok) {
+            return res.send({status: true, code: 200, message: "Password reset was successful", user})       
+        } else {
+            return res.send({status: false, message: "Failed to reset password"})
+        }
+
+    } catch (error) {
+        return res.send({status: false, code: 500, message: "Something went wrong"})        
+    }
 }
