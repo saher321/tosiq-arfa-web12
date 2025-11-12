@@ -1,0 +1,76 @@
+🔧 1. Hero Section (Above the Fold)
+
+1- Strong headline: “Fast, Reliable, and Affordable Repair Services You Can Trust.”
+2- Quick Call-to-Action (CTA): “Book a Service” or “Get a Free Quote.”
+3- Contact Info: Phone number, WhatsApp button, or chat option.
+4- Visual: Image or short video of technicians working or happy customers.
+
+🛠️ 2. Services Offered
+
+Clearly list categories of repair (with icons or short blurbs):
+1- Home Appliance Repair (AC, Washing Machine, Fridge, etc.)
+2- Mobile/Laptop Repair
+3- Electrical & Plumbing Repair
+4- HVAC Maintenance
+5- Automobile or Industrial Repairs (if applicable)
+6- Include “Book Now” buttons under each.
+
+⭐ 3. Why Choose Us / Highlights (FAQ)
+
+1- Certified and Experienced Technicians
+2- Same-Day or Emergency Service Available
+3- Genuine Parts & Warranty on Repairs
+4- Transparent Pricing (No Hidden Costs)
+5- Customer Satisfaction Guarantee
+6- 24/7 Customer Support
+
+💬 4. Customer Reviews & Testimonials
+
+1- Star ratings and short feedback quotes
+2- Option to view Google or social media reviews
+3- Before-and-after photos (if relevant)
+
+🏢 5. About the Company
+
+1- Brief intro: Years of experience, mission, and values
+2- Emphasize trust, expertise, and service quality
+3- Team photos or certifications (if available)
+
+📍 6. Service Areas
+
+1- Mention cities or neighborhoods covered
+2- Include Google Map integration for easy navigation
+
+📞 7. Contact & Booking Section
+
+1- Easy booking form: Name, contact, issue description
+Quick contact options:
+1- “Call Now” button
+2- “Chat on WhatsApp”
+3- “Schedule a Visit” calendar
+4- Support email and physical address (if applicable)
+
+🧾 8. Pricing / Packages (Optional)
+
+1- Display basic pricing range or flat rates for transparency
+2- Offer maintenance packages or membership discounts
+
+📸 9. Gallery or Portfolio
+
+1- Real images of repairs, tools, and team in action
+2- Optional “Before vs After” shots
+
+🔐 10. Footer Section
+
+1- Quick links: Home | Services | About | Contact | Privacy Policy
+2- Social media icons
+3- Business hours
+4- Emergency hotline
+
+
+
+
+NEXTJS
+
+About us page
+-> [aboutus] -> *page.jsx

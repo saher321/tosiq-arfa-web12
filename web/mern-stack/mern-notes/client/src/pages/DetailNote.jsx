@@ -1,6 +1,6 @@
 import axios from "axios";
-import React, { use, useEffect, useState } from "react";
-import { set, useForm } from "react-hook-form";
+import React, { useEffect, useState } from "react";
+import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 import { NavLink, useNavigate, useParams } from "react-router";
 import { NOTE, UPDATE_NOTE } from "../resources/api";
@@ -14,9 +14,14 @@ const DetailNote = () => {
   useEffect(() => {
     const detailNote = async () => {
       try {
-        const result = await axios.get(`${NOTE}/${params.id}`);
-        if (result) {
+        const result = await axios.get(`${NOTE}/${params.id}`, {
+          headers: {
+            Authorization: `Bearer ${localStorage.getItem("userToken")}`
+          }
+        });
+        if (result.data.status == true) {
           reset(result.data.note)
+          console.log(result.data.note)
         } else {
           toast.error(success.data.message, { duration: 3000 });
         }
