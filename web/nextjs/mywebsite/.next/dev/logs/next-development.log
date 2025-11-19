@@ -1,0 +1,4074 @@
+[00:00:02.666] Server  LOG      ✓ Ready in 1761ms
+[00:00:11.355] Server  LOG      ○ Compiling / ...
+[00:00:17.092] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:17.515] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="geist_2ae47f08-module__h69qWW__variable geist_mono_eb58308d-module__w_p2Lq__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:04:37.098] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:7:22
+Parsing ecmascript source code failed
+   5 |   return (
+   6 |     <>
+>  7 |     </><Button>Click me</Button>
+     |                      ^^
+   8 |   )
+   9 | }
+  10 |
+
+Expected ',', got 'me'
+[00:04:40.584] Server  ERROR   C:\Users\PNY\Documents\Tosiq-web12\web\nextjs\mywebsite\.next\dev\server\chunks\ssr\[root-of-the-server]__08de8d9c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:40.586] Server  ERROR    ⨯ ReferenceError: Accordion is not defined
+[00:04:41.096] Browser ERROR   uncaughtError: ReferenceError: Accordion is not defined
+[00:04:58.281] Server  ERROR   C:\Users\PNY\Documents\Tosiq-web12\web\nextjs\mywebsite\.next\dev\server\chunks\ssr\[root-of-the-server]__08de8d9c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.283] Server  ERROR    ⨯ ReferenceError: Accordion is not defined
+[00:04:59.358] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:00.137] Browser ERROR   uncaughtError: ReferenceError: Accordion is not defined
+[00:05:00.221] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.229] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.237] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.246] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.252] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.261] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.272] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.282] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.287] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.295] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.309] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.314] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.319] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.325] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.332] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.340] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.351] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.357] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.364] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.373] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.384] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.389] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.396] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.404] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:00.412] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.177] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:04.824] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:05.103] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:05.904] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:06.024] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:06.727] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:07.786] Browser ERROR   uncaughtError: Error: ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:08.025] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:12.125] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:12.125] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:06:15.101] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:06:15.101] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:06:26.143] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:06:26.144] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:06:26.144] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:06:26.144] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:06:26.144] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:06:26.145] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:06:26.146] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:06:26.146] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:06:26.146] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:06:26.146] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:06:27.106] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:06:27.106] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:06:27.106] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:06:27.106] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:06:27.107] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:06:27.107] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:06:27.107] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:06:27.107] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/page.js:3:1
+Module not found: Can't resolve '@/components/ui/accordion'
+   1 | import React from 'react'
+   2 | import { Button } from '@/components/ui/button'
+>  3 | import {
+     | ^^^^^^^^
+>  4 |   Accordion,
+     | ^^^^^^^^^^^^
+>  5 |   AccordionContent,
+     | ^^^^^^^^^^^^
+>  6 |   AccordionItem,
+     | ^^^^^^^^^^^^
+>  7 |   AccordionTrigger,
+     | ^^^^^^^^^^^^
+>  8 | } from "@/components/ui/accordion"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Home = () => {
+  11 |   return (
+
+Import map: aliased to relative './components/ui/accordion' inside of [project]/Documents/Tosiq-web12/web/nextjs/mywebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:06:35.563] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:36.353] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="geist_2ae47f08-module__h69qWW__variable geist_mono_eb58308d-module__w_p2Lq__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:06:36.557] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:43.607] Server  LOG      ✓ Compiled in 79ms
+[00:08:43.855] Server  LOG      ✓ Compiled in 87ms
+[00:08:44.105] Server  LOG      ✓ Compiled in 208ms
+[00:08:44.402] Server  LOG      ✓ Compiled in 103ms
+[00:08:45.122] Server  LOG      ✓ Compiled in 179ms
+[00:11:16.166] Server  LOG      ○ Compiling /dashboard ...
+[00:11:17.669] Server  ERROR   C:\Users\PNY\Documents\Tosiq-web12\web\nextjs\mywebsite\.next\dev\server\chunks\ssr\[root-of-the-server]__f295a8fd._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:11:17.673] Server  ERROR    ⨯ Error: useSidebar must be used within a SidebarProvider.
+[00:11:18.383] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:18.622] Browser ERROR   uncaughtError: Error: useSidebar must be used within a SidebarProvider.
+[00:13:54.047] Server  ERROR   C:\Users\PNY\Documents\Tosiq-web12\web\nextjs\mywebsite\.next\dev\server\chunks\ssr\[root-of-the-server]__7d0f0445._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:13:54.048] Server  ERROR    ⨯ ReferenceError: SidebarProvider is not defined
+[00:13:54.388] Server  ERROR   C:\Users\PNY\Documents\Tosiq-web12\web\nextjs\mywebsite\.next\dev\server\chunks\ssr\[root-of-the-server]__7d0f0445._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:13:54.389] Server  ERROR    ⨯ ReferenceError: SidebarProvider is not defined
+[00:13:54.594] Server  ERROR   C:\Users\PNY\Documents\Tosiq-web12\web\nextjs\mywebsite\.next\dev\server\chunks\ssr\[root-of-the-server]__7d0f0445._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:13:54.596] Server  ERROR    ⨯ ReferenceError: SidebarProvider is not defined
+[00:13:55.098] Browser ERROR   uncaughtError: ReferenceError: SidebarProvider is not defined
+[00:13:55.528] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:57.108] Browser ERROR   uncaughtError: ReferenceError: SidebarProvider is not defined
+[00:14:00.221] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:14:00.223] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:14:00.479] Server  ERROR   C:\Users\PNY\Documents\Tosiq-web12\web\nextjs\mywebsite\.next\dev\server\chunks\ssr\Documents_Tosiq-web12_web_nextjs_mywebsite_d7f68e50._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:14:00.480] Server  ERROR    ⨯ ReferenceError: SidebarProvider is not defined
+[00:14:00.595] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:14:00.596] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:14:00.873] Server  ERROR   C:\Users\PNY\Documents\Tosiq-web12\web\nextjs\mywebsite\.next\dev\server\chunks\ssr\Documents_Tosiq-web12_web_nextjs_mywebsite_d7f68e50._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:14:00.875] Server  ERROR    ⨯ ReferenceError: SidebarProvider is not defined
+[00:14:01.809] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:03.098] Browser ERROR   uncaughtError: ReferenceError: SidebarProvider is not defined
+[00:14:03.104] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:05.116] Browser ERROR   uncaughtError: ReferenceError: SidebarProvider is not defined
+[00:14:34.372] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:14:34.372] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:14:35.890] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:38.159] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:06.431] Server  LOG      ✓ Compiled in 240ms
+[00:15:09.306] Server  LOG      ✓ Compiled in 168ms
+[00:15:15.861] Server  LOG      ✓ Compiled in 181ms
+[00:15:27.494] Server  LOG      ✓ Compiled in 198ms
+[00:15:37.543] Server  LOG      ✓ Compiled in 155ms
+[00:17:03.001] Server  LOG      ✓ Compiled in 115ms
+[00:17:07.009] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:07.368] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:28.121] Server  LOG      ✓ Compiled in 65ms
+[00:17:28.496] Server  ERROR   C:\Users\PNY\Documents\Tosiq-web12\web\nextjs\mywebsite\.next\dev\server\chunks\ssr\[root-of-the-server]__ab83dbe0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:17:28.506] Server  ERROR    ⨯ ReferenceError: items is not defined
+[00:17:29.676] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:30.235] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:31.469] Browser ERROR   uncaughtError: ReferenceError: items is not defined
+[00:17:31.625] Server  LOG      ✓ Compiled in 52ms
+[00:17:32.826] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:33.060] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:37.924] Server  LOG      ✓ Compiled in 81ms
+[00:17:39.704] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:39.795] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:45.056] Server  LOG      ✓ Compiled in 67ms
+[00:17:46.346] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:46.744] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:16.679] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:17.801] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:23.431] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:43.406] Server  ERROR   C:\Users\PNY\Documents\Tosiq-web12\web\nextjs\mywebsite\.next\dev\server\chunks\ssr\Documents_Tosiq-web12_web_nextjs_mywebsite_97a3677f._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:43.407] Server  ERROR    ⨯ ReferenceError: html is not defined
+[00:18:43.818] Server  ERROR   C:\Users\PNY\Documents\Tosiq-web12\web\nextjs\mywebsite\.next\dev\server\chunks\ssr\Documents_Tosiq-web12_web_nextjs_mywebsite_97a3677f._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:43.819] Server  ERROR    ⨯ ReferenceError: html is not defined
+[00:18:44.550] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:44.913] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:44.913] Browser ERROR   uncaughtError: ReferenceError: html is not defined
+[00:18:46.105] Browser ERROR   uncaughtError: ReferenceError: html is not defined
+[00:18:48.095] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:7:10
+Parsing ecmascript source code failed
+   5 |
+   6 | export default function RootLayout({ children }) {
+>  7 |   return (
+     |          ^
+>  8 |   
+     | ^^
+>  9 |   );
+     | ^^^^
+  10 | }
+  11 |
+
+Parenthesized expression cannot be empty
+[00:18:48.095] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:7:10
+Parsing ecmascript source code failed
+   5 |
+   6 | export default function RootLayout({ children }) {
+>  7 |   return (
+     |          ^
+>  8 |   
+     | ^^
+>  9 |   );
+     | ^^^^
+  10 | }
+  11 |
+
+Parenthesized expression cannot be empty
+[00:18:52.094] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:10:1
+Parsing ecmascript source code failed
+   8 |     <html lang="en">
+   9 |   );
+> 10 | }
+     | ^
+  11 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+[00:18:52.095] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:10:1
+Parsing ecmascript source code failed
+   8 |     <html lang="en">
+   9 |   );
+> 10 | }
+     | ^
+  11 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+[00:18:52.973] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:18:52.975] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:18:53.457] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/Documents_Tosiq-web12_web_nextjs_mywebsite_app_globals_3eeaf599.css
+[00:18:54.833] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:54.898] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:03.102] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:12:27
+Parsing ecmascript source code failed
+  10 |         <SidebarProvider>
+  11 |           <AppSidebar />
+> 12 |           {children}</div>
+     |                           ^
+> 13 |         </SidebarProvider>
+     | ^^^^^^^^^
+  14 |       </body>
+  15 |     </html>
+  16 |   );
+
+Expected '</', got 'jsx text (
+        )'
+[00:19:03.103] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:12:27
+Parsing ecmascript source code failed
+  10 |         <SidebarProvider>
+  11 |           <AppSidebar />
+> 12 |           {children}</div>
+     |                           ^
+> 13 |         </SidebarProvider>
+     | ^^^^^^^^^
+  14 |       </body>
+  15 |     </html>
+  16 |   );
+
+Expected '</', got 'jsx text (
+        )'
+[00:19:04.866] Server  LOG      ✓ Compiled in 271ms
+[00:19:06.682] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:48.476] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:58.812] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:00.102] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:20:41.207] Server  ERROR   C:\Users\PNY\Documents\Tosiq-web12\web\nextjs\mywebsite\.next\dev\server\chunks\ssr\Documents_Tosiq-web12_web_nextjs_mywebsite_97a3677f._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:20:41.210] Server  ERROR    ⨯ ReferenceError: defaultOpen is not defined
+[00:20:41.439] Server  ERROR   C:\Users\PNY\Documents\Tosiq-web12\web\nextjs\mywebsite\.next\dev\server\chunks\ssr\Documents_Tosiq-web12_web_nextjs_mywebsite_97a3677f._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:20:41.440] Server  ERROR    ⨯ ReferenceError: defaultOpen is not defined
+[00:20:41.500] Server  ERROR   C:\Users\PNY\Documents\Tosiq-web12\web\nextjs\mywebsite\.next\dev\server\chunks\ssr\Documents_Tosiq-web12_web_nextjs_mywebsite_97a3677f._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:20:41.501] Server  ERROR    ⨯ ReferenceError: defaultOpen is not defined
+[00:20:41.615] Server  ERROR   C:\Users\PNY\Documents\Tosiq-web12\web\nextjs\mywebsite\.next\dev\server\chunks\ssr\Documents_Tosiq-web12_web_nextjs_mywebsite_97a3677f._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:20:41.617] Server  ERROR    ⨯ ReferenceError: defaultOpen is not defined
+[00:20:41.734] Server  ERROR   C:\Users\PNY\Documents\Tosiq-web12\web\nextjs\mywebsite\.next\dev\server\chunks\ssr\Documents_Tosiq-web12_web_nextjs_mywebsite_97a3677f._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:20:41.735] Server  ERROR    ⨯ ReferenceError: defaultOpen is not defined
+[00:20:42.104] Browser ERROR   uncaughtError: ReferenceError: defaultOpen is not defined
+[00:20:44.472] Server  ERROR   C:\Users\PNY\Documents\Tosiq-web12\web\nextjs\mywebsite\.next\dev\server\chunks\ssr\Documents_Tosiq-web12_web_nextjs_mywebsite_97a3677f._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:20:44.475] Server  ERROR    ⨯ ReferenceError: defaultOpen is not defined
+[00:20:45.140] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:47.095] Browser ERROR   uncaughtError: ReferenceError: defaultOpen is not defined
+[00:20:47.915] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:49.154] Browser ERROR   uncaughtError: ReferenceError: defaultOpen is not defined
+[00:21:02.900] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:02.962] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:06.594] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:35.304] Server  ERROR   C:\Users\PNY\Documents\Tosiq-web12\web\nextjs\mywebsite\.next\dev\server\chunks\ssr\Documents_Tosiq-web12_web_nextjs_mywebsite_97a3677f._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:35.306] Server  ERROR    ⨯ ReferenceError: Link is not defined
+[00:23:35.384] Server  ERROR   C:\Users\PNY\Documents\Tosiq-web12\web\nextjs\mywebsite\.next\dev\server\chunks\ssr\Documents_Tosiq-web12_web_nextjs_mywebsite_97a3677f._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:35.389] Server  ERROR    ⨯ ReferenceError: Link is not defined
+[00:23:35.493] Server  ERROR   C:\Users\PNY\Documents\Tosiq-web12\web\nextjs\mywebsite\.next\dev\server\chunks\ssr\Documents_Tosiq-web12_web_nextjs_mywebsite_97a3677f._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:35.496] Server  ERROR    ⨯ ReferenceError: Link is not defined
+[00:23:35.576] Server  ERROR   C:\Users\PNY\Documents\Tosiq-web12\web\nextjs\mywebsite\.next\dev\server\chunks\ssr\Documents_Tosiq-web12_web_nextjs_mywebsite_97a3677f._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:35.578] Server  ERROR    ⨯ ReferenceError: Link is not defined
+[00:23:36.104] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:23:36.107] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:23:37.551] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:23:37.552] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:23:38.118] Server  LOG      ✓ Compiled in 425ms
+[00:23:38.147] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:23:38.147] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:23:39.362] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:39.727] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:02.094] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:15:27
+Parsing ecmascript source code failed
+  13 |             {children}
+  14 |           </main>
+> 15 |         </SidebarProvider>
+     |                           ^
+> 16 |       </body>
+     | ^^^^^^^
+  17 |     </html>
+  18 |   );
+  19 | }
+
+Expected '</', got 'jsx text (
+      )'
+[00:26:02.094] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:15:27
+Parsing ecmascript source code failed
+  13 |             {children}
+  14 |           </main>
+> 15 |         </SidebarProvider>
+     |                           ^
+> 16 |       </body>
+     | ^^^^^^^
+  17 |     </html>
+  18 |   );
+  19 | }
+
+Expected '</', got 'jsx text (
+      )'
+[00:26:05.602] Server  LOG      ✓ Compiled in 52ms
+[00:26:27.750] Server  LOG      ✓ Compiled in 65ms
+[00:26:32.107] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:14:11
+Parsing ecmascript source code failed
+  12 |             <SidebarTrigger />
+  13 |             <div
+> 14 |           </main>
+     |           ^
+  15 |         </SidebarProvider>
+  16 |       </body>
+  17 |     </html>
+
+Expression expected
+[00:26:32.107] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:14:12
+Parsing ecmascript source code failed
+  12 |             <SidebarTrigger />
+  13 |             <div
+> 14 |           </main>
+     |            ^^^^^^
+  15 |         </SidebarProvider>
+  16 |       </body>
+  17 |     </html>
+
+Unterminated regexp literal
+[00:26:32.107] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:14:11
+Parsing ecmascript source code failed
+  12 |             <SidebarTrigger />
+  13 |             <div
+> 14 |           </main>
+     |           ^
+  15 |         </SidebarProvider>
+  16 |       </body>
+  17 |     </html>
+
+Expression expected
+[00:26:32.107] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:14:12
+Parsing ecmascript source code failed
+  12 |             <SidebarTrigger />
+  13 |             <div
+> 14 |           </main>
+     |            ^^^^^^
+  15 |         </SidebarProvider>
+  16 |       </body>
+  17 |     </html>
+
+Unterminated regexp literal
+[00:26:34.107] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:14:11
+Parsing ecmascript source code failed
+  12 |             <SidebarTrigger />
+  13 |             <AppSidebardiv
+> 14 |           </main>
+     |           ^
+  15 |         </SidebarProvider>
+  16 |       </body>
+  17 |     </html>
+
+Expression expected
+[00:26:34.107] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:14:12
+Parsing ecmascript source code failed
+  12 |             <SidebarTrigger />
+  13 |             <AppSidebardiv
+> 14 |           </main>
+     |            ^^^^^^
+  15 |         </SidebarProvider>
+  16 |       </body>
+  17 |     </html>
+
+Unterminated regexp literal
+[00:26:34.107] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:14:11
+Parsing ecmascript source code failed
+  12 |             <SidebarTrigger />
+  13 |             <AppSidebardiv
+> 14 |           </main>
+     |           ^
+  15 |         </SidebarProvider>
+  16 |       </body>
+  17 |     </html>
+
+Expression expected
+[00:26:34.107] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:14:12
+Parsing ecmascript source code failed
+  12 |             <SidebarTrigger />
+  13 |             <AppSidebardiv
+> 14 |           </main>
+     |            ^^^^^^
+  15 |         </SidebarProvider>
+  16 |       </body>
+  17 |     </html>
+
+Unterminated regexp literal
+[00:26:35.106] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:14:11
+Parsing ecmascript source code failed
+  12 |             <SidebarTrigger />
+  13 |             <div
+> 14 |           </main>
+     |           ^
+  15 |         </SidebarProvider>
+  16 |       </body>
+  17 |     </html>
+
+Expression expected
+[00:26:35.106] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:14:12
+Parsing ecmascript source code failed
+  12 |             <SidebarTrigger />
+  13 |             <div
+> 14 |           </main>
+     |            ^^^^^^
+  15 |         </SidebarProvider>
+  16 |       </body>
+  17 |     </html>
+
+Unterminated regexp literal
+[00:26:35.106] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:14:11
+Parsing ecmascript source code failed
+  12 |             <SidebarTrigger />
+  13 |             <div
+> 14 |           </main>
+     |           ^
+  15 |         </SidebarProvider>
+  16 |       </body>
+  17 |     </html>
+
+Expression expected
+[00:26:35.106] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:14:12
+Parsing ecmascript source code failed
+  12 |             <SidebarTrigger />
+  13 |             <div
+> 14 |           </main>
+     |            ^^^^^^
+  15 |         </SidebarProvider>
+  16 |       </body>
+  17 |     </html>
+
+Unterminated regexp literal
+[00:26:37.796] Server  LOG      ✓ Compiled in 55ms
+[00:26:40.105] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:13:18
+Parsing ecmascript source code failed
+  11 |           <main>
+  12 |             <SidebarTrigger />
+> 13 |             <div <i class="fas fa-paw-claws    "></i>>
+     |                  ^
+  14 |               {children}
+  15 |             </div>
+  16 |           </main>
+
+Expression expected
+[00:26:40.105] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:13:18
+Parsing ecmascript source code failed
+  11 |           <main>
+  12 |             <SidebarTrigger />
+> 13 |             <div <i class="fas fa-paw-claws    "></i>>
+     |                  ^
+  14 |               {children}
+  15 |             </div>
+  16 |           </main>
+
+Expression expected
+[00:26:41.092] Server  LOG      ✓ Compiled in 56ms
+[00:26:42.111] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true clasw clasw true clasw
+[00:26:42.111] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true clasw clasw true clasw
+[00:26:45.110] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. claswsName claswsname
+[00:26:45.111] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. claswsName claswsname
+[00:27:00.095] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:12:42
+Parsing ecmascript source code failed
+  10 |           <AppSidebar />
+  11 |           <main>
+> 12 |             <SidebarTrigger className={}/>
+     |                                          ^
+  13 |             <div className="p-5">
+  14 |               {children}
+  15 |             </div>
+
+Expression expected
+[00:27:00.096] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:16:12
+Parsing ecmascript source code failed
+  14 |               {children}
+  15 |             </div>
+> 16 |           </main>
+     |            ^^^^^^
+  17 |         </SidebarProvider>
+  18 |       </body>
+  19 |     </html>
+
+Unterminated regexp literal
+[00:27:00.107] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:12:42
+Parsing ecmascript source code failed
+  10 |           <AppSidebar />
+  11 |           <main>
+> 12 |             <SidebarTrigger className={}/>
+     |                                          ^
+  13 |             <div className="p-5">
+  14 |               {children}
+  15 |             </div>
+
+Expression expected
+[00:27:00.107] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/layout.js:16:12
+Parsing ecmascript source code failed
+  14 |               {children}
+  15 |             </div>
+> 16 |           </main>
+     |            ^^^^^^
+  17 |         </SidebarProvider>
+  18 |       </body>
+  19 |     </html>
+
+Unterminated regexp literal
+[00:27:01.851] Server  LOG      ✓ Compiled in 69ms
+[00:33:34.963] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from 'react'
+    |                 ^^^^^^^^^
+  2 |
+  3 | const page = () => {
+  4 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+
+./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:1:28
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from 'react'
+    |                            ^^^^^^^^
+  2 |
+  3 | const page = () => {
+  4 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:33:35.060] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from 'react'
+    |                 ^^^^^^^^^
+  2 |
+  3 | const page = () => {
+  4 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:35.060] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:1:28
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from 'react'
+    |                            ^^^^^^^^
+  2 |
+  3 | const page = () => {
+  4 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:35.079] Server  ERROR    ⨯ ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from 'react'
+    |                 ^^^^^^^^^
+  2 |
+  3 | const page = () => {
+  4 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+
+./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:1:28
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from 'react'
+    |                            ^^^^^^^^
+  2 |
+  3 | const page = () => {
+  4 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:33:35.104] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from 'react'
+    |                 ^^^^^^^^^
+  2 |
+  3 | const page = () => {
+  4 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:35.104] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:1:28
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from 'react'
+    |                            ^^^^^^^^
+  2 |
+  3 | const page = () => {
+  4 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:36.096] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from 'react'
+    |                 ^^^^^^^^^
+  2 |
+  3 | const page = () => {
+  4 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:36.096] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:1:28
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from 'react'
+    |                            ^^^^^^^^
+  2 |
+  3 | const page = () => {
+  4 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:36.381] Browser ERROR   uncaughtError: Error: ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from 'react'
+    |                 ^^^^^^^^^
+  2 |
+  3 | const page = () => {
+  4 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:33:38.105] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from 'react'
+    |                 ^^^^^^^^^
+  2 |
+  3 | const page = () => {
+  4 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:38.105] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:1:28
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from 'react'
+    |                            ^^^^^^^^
+  2 |
+  3 | const page = () => {
+  4 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:38.142] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from 'react'
+    |                 ^^^^^^^^^
+  2 |
+  3 | const page = () => {
+  4 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:38.142] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:1:28
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from 'react'
+    |                            ^^^^^^^^
+  2 |
+  3 | const page = () => {
+  4 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:38.142] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from 'react'
+    |                 ^^^^^^^^^
+  2 |
+  3 | const page = () => {
+  4 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:38.142] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:1:28
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from 'react'
+    |                            ^^^^^^^^
+  2 |
+  3 | const page = () => {
+  4 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:54.110] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:2:17
+Ecmascript file had an error
+  1 |
+> 2 | import React, { useEffect, useState } from 'react'
+    |                 ^^^^^^^^^
+  3 |
+  4 | const page = () => {
+  5 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:54.110] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:2:28
+Ecmascript file had an error
+  1 |
+> 2 | import React, { useEffect, useState } from 'react'
+    |                            ^^^^^^^^
+  3 |
+  4 | const page = () => {
+  5 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:54.110] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:2:17
+Ecmascript file had an error
+  1 |
+> 2 | import React, { useEffect, useState } from 'react'
+    |                 ^^^^^^^^^
+  3 |
+  4 | const page = () => {
+  5 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:54.110] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:2:28
+Ecmascript file had an error
+  1 |
+> 2 | import React, { useEffect, useState } from 'react'
+    |                            ^^^^^^^^
+  3 |
+  4 | const page = () => {
+  5 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:57.100] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:2:17
+Ecmascript file had an error
+  1 |
+> 2 | import React, { useEffect, useState } from 'react'
+    |                 ^^^^^^^^^
+  3 |
+  4 | const page = () => {
+  5 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:57.100] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:2:28
+Ecmascript file had an error
+  1 |
+> 2 | import React, { useEffect, useState } from 'react'
+    |                            ^^^^^^^^
+  3 |
+  4 | const page = () => {
+  5 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:57.101] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:2:17
+Ecmascript file had an error
+  1 |
+> 2 | import React, { useEffect, useState } from 'react'
+    |                 ^^^^^^^^^
+  3 |
+  4 | const page = () => {
+  5 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:57.101] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:2:28
+Ecmascript file had an error
+  1 |
+> 2 | import React, { useEffect, useState } from 'react'
+    |                            ^^^^^^^^
+  3 |
+  4 | const page = () => {
+  5 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:58.094] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:2:17
+Ecmascript file had an error
+  1 |
+> 2 | import React, { useEffect, useState } from 'react'
+    |                 ^^^^^^^^^
+  3 |
+  4 | const page = () => {
+  5 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:58.094] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:2:28
+Ecmascript file had an error
+  1 |
+> 2 | import React, { useEffect, useState } from 'react'
+    |                            ^^^^^^^^
+  3 |
+  4 | const page = () => {
+  5 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:58.095] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:2:17
+Ecmascript file had an error
+  1 |
+> 2 | import React, { useEffect, useState } from 'react'
+    |                 ^^^^^^^^^
+  3 |
+  4 | const page = () => {
+  5 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:58.095] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:2:28
+Ecmascript file had an error
+  1 |
+> 2 | import React, { useEffect, useState } from 'react'
+    |                            ^^^^^^^^
+  3 |
+  4 | const page = () => {
+  5 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:59.097] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:2:17
+Ecmascript file had an error
+  1 |
+> 2 | import React, { useEffect, useState } from 'react'
+    |                 ^^^^^^^^^
+  3 |
+  4 | const page = () => {
+  5 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:59.098] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:2:28
+Ecmascript file had an error
+  1 |
+> 2 | import React, { useEffect, useState } from 'react'
+    |                            ^^^^^^^^
+  3 |
+  4 | const page = () => {
+  5 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:59.098] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:2:17
+Ecmascript file had an error
+  1 |
+> 2 | import React, { useEffect, useState } from 'react'
+    |                 ^^^^^^^^^
+  3 |
+  4 | const page = () => {
+  5 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:59.098] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:2:28
+Ecmascript file had an error
+  1 |
+> 2 | import React, { useEffect, useState } from 'react'
+    |                            ^^^^^^^^
+  3 |
+  4 | const page = () => {
+  5 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:34:01.098] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:2:17
+Ecmascript file had an error
+  1 | ''
+> 2 | import React, { useEffect, useState } from 'react'
+    |                 ^^^^^^^^^
+  3 |
+  4 | const page = () => {
+  5 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:34:01.098] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:2:28
+Ecmascript file had an error
+  1 | ''
+> 2 | import React, { useEffect, useState } from 'react'
+    |                            ^^^^^^^^
+  3 |
+  4 | const page = () => {
+  5 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:34:01.098] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:2:17
+Ecmascript file had an error
+  1 | ''
+> 2 | import React, { useEffect, useState } from 'react'
+    |                 ^^^^^^^^^
+  3 |
+  4 | const page = () => {
+  5 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:34:01.098] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:2:28
+Ecmascript file had an error
+  1 | ''
+> 2 | import React, { useEffect, useState } from 'react'
+    |                            ^^^^^^^^
+  3 |
+  4 | const page = () => {
+  5 |     const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:34:03.578] Server  LOG      ✓ Compiled in 56ms
+[00:34:04.675] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:29.443] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:34:29.939] Server  LOG      ✓ Compiled in 88ms
+[00:34:30.856] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:31.990] Server  LOG      ✓ Compiled in 69ms
+[00:34:32.064] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:34:33.414] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:35.107] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/todos" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         suppresshydrationwarning="true"
+-                         data-qb-installed="true"
+                        >
+                          <body
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:34:38.492] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:34:38.895] Server  LOG      ✓ Compiled in 73ms
+[00:34:40.361] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:52.042] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:34:52.606] Server  LOG      ✓ Compiled in 105ms
+[00:34:53.134] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:04.149] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:35:04.637] Server  LOG      ✓ Compiled in 77ms
+[00:35:05.519] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:05.948] Server  LOG      ✓ Compiled in 145ms
+[00:35:05.993] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:35:07.054] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:10.968] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:35:11.434] Server  LOG      ✓ Compiled in 66ms
+[00:35:12.179] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:13.315] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:35:13.868] Server  LOG      ✓ Compiled in 57ms
+[00:35:15.196] Server  LOG      ✓ Compiled in 229ms
+[00:35:15.275] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:40.903] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:35:41.394] Server  LOG      ✓ Compiled in 104ms
+[00:35:41.892] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:45.814] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:35:46.331] Server  LOG      ✓ Compiled in 91ms
+[00:35:47.655] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:48.112] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/todos" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         suppresshydrationwarning="true"
+-                         data-qb-installed="true"
+                        >
+                          <body
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:35:51.623] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:35:52.182] Server  LOG      ✓ Compiled in 61ms
+[00:35:52.619] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:00.547] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:36:01.048] Server  LOG      ✓ Compiled in 80ms
+[00:36:01.876] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:03.189] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/todos" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         suppresshydrationwarning="true"
+-                         data-qb-installed="true"
+                        >
+                  ...
+
+[00:36:06.321] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:36:06.842] Server  LOG      ✓ Compiled in 79ms
+[00:36:07.962] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:08.883] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/todos" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:36:09.048] Server  LOG      ✓ Compiled in 73ms
+[00:36:09.067] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:36:10.079] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:16.331] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:36:16.332] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:36:16.932] Server  LOG      ✓ Compiled in 110ms
+[00:36:18.092] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:22.575] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:36:23.218] Server  LOG      ✓ Compiled in 73ms
+[00:36:24.017] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:24.516] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:36:24.534] Server  LOG      ✓ Compiled in 68ms
+[00:36:25.423] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:30.345] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:36:30.845] Server  LOG      ✓ Compiled in 119ms
+[00:36:31.295] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:36.573] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:36:37.077] Server  LOG      ✓ Compiled in 64ms
+[00:36:37.519] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:38.805] Server  LOG      ✓ Compiled in 149ms
+[00:38:18.524] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:38:19.045] Server  LOG      ✓ Compiled in 72ms
+[00:38:20.012] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:21.155] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/todos" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:38:21.155] Browser ERROR   uncaughtError: ReferenceError: Badge is not defined
+[00:38:21.396] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:38:21.396] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:38:21.397] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:38:21.857] Server  LOG      ✓ Compiled in 56ms
+[00:38:22.755] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:23.162] Server  LOG      ✓ Compiled in 78ms
+[00:38:23.295] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:38:24.756] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:26.109] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/todos" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         suppresshydrationwarning="true"
+-                         data-qb-installed="true"
+                        >
+                  ...
+
+[00:38:26.110] Browser ERROR   uncaughtError: ReferenceError: Badge is not defined
+[00:38:26.940] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:38:26.941] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:38:26.941] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:38:27.494] Server  LOG      ✓ Compiled in 69ms
+[00:38:28.473] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:30.112] Browser ERROR   uncaughtError: ReferenceError: Badge is not defined
+[00:38:31.047] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:38:31.047] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:38:31.050] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:38:31.595] Server  LOG      ✓ Compiled in 67ms
+[00:38:32.485] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:34.122] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/todos" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:38:34.122] Browser ERROR   uncaughtError: ReferenceError: Badge is not defined
+[00:38:38.314] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:38:38.314] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:38:38.315] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:38:39.112] Server  LOG      ✓ Compiled in 78ms
+[00:38:40.446] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:42.108] Browser ERROR   uncaughtError: ReferenceError: Badge is not defined
+[00:38:43.228] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:38:43.229] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:38:43.230] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:38:43.246] Server  LOG      ✓ Compiled in 75ms
+[00:38:44.813] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:45.706] Server  LOG      ✓ Compiled in 71ms
+[00:38:45.734] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:38:46.273] Browser ERROR   uncaughtError: ReferenceError: Badge is not defined
+[00:38:47.332] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:49.115] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/todos" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         suppresshydrationwarning="true"
+-                         data-qb-installed="true"
+                        >
+                  ...
+
+[00:38:49.115] Browser ERROR   uncaughtError: ReferenceError: Badge is not defined
+[00:38:57.124] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:38:57.125] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:38:57.127] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:38:57.712] Server  LOG      ✓ Compiled in 172ms
+[00:38:58.779] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:00.112] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/todos" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         suppresshydrationwarning="true"
+-                         data-qb-installed="true"
+                        >
+                  ...
+
+[00:39:01.186] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true var var true var
+[00:39:01.749] Server  LOG      ✓ Compiled in 63ms
+[00:39:02.107] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:20:119
+Parsing ecmascript source code failed
+  18 |                 {todos.map(todo => (
+  19 |                     <li key={todo.id} className='my-3 p-3 rounded-md bg-gray-100'>
+> 20 |                         <strong>{todo.title}</strong> - {todo.completed ? <Badge>Completed</Badge> : <Badge variant={}>Pending</Badge>}
+     |                                                                                                                       ^
+  21 |                     </li>
+  22 |                 ))}
+  23 |             </ul>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:39:02.108] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:20:128
+Parsing ecmascript source code failed
+  18 |                 {todos.map(todo => (
+  19 |                     <li key={todo.id} className='my-3 p-3 rounded-md bg-gray-100'>
+> 20 |                         <strong>{todo.title}</strong> - {todo.completed ? <Badge>Completed</Badge> : <Badge variant={}>Pending</Badge>}
+     |                                                                                                                                ^^^^^^^^
+  21 |                     </li>
+  22 |                 ))}
+  23 |             </ul>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:39:02.108] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:20:119
+Parsing ecmascript source code failed
+  18 |                 {todos.map(todo => (
+  19 |                     <li key={todo.id} className='my-3 p-3 rounded-md bg-gray-100'>
+> 20 |                         <strong>{todo.title}</strong> - {todo.completed ? <Badge>Completed</Badge> : <Badge variant={}>Pending</Badge>}
+     |                                                                                                                       ^
+  21 |                     </li>
+  22 |                 ))}
+  23 |             </ul>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:39:02.108] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:20:128
+Parsing ecmascript source code failed
+  18 |                 {todos.map(todo => (
+  19 |                     <li key={todo.id} className='my-3 p-3 rounded-md bg-gray-100'>
+> 20 |                         <strong>{todo.title}</strong> - {todo.completed ? <Badge>Completed</Badge> : <Badge variant={}>Pending</Badge>}
+     |                                                                                                                                ^^^^^^^^
+  21 |                     </li>
+  22 |                 ))}
+  23 |             </ul>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:39:04.233] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:39:04.234] Server  LOG      ✓ Compiled in 78ms
+[00:39:05.604] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:12.633] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:39:13.230] Server  LOG      ✓ Compiled in 84ms
+[00:39:14.258] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:51.327] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:39:51.332] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:39:51.929] Server  LOG      ✓ Compiled in 126ms
+[00:39:52.889] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:55.139] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/todos" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         suppresshydrationwarning="true"
+-                         data-qb-installed="true"
+                        >
+                          <body
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:39:55.415] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:58.093] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/todos" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         suppresshydrationwarning="true"
+-                         data-qb-installed="true"
+                        >
+                  ...
+
+[00:39:58.678] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:39:58.691] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:39:58.695] Server  LOG      ✓ Compiled in 67ms
+[00:40:00.445] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:00.754] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:02.723] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:40:02.724] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:40:03.293] Server  LOG      ✓ Compiled in 86ms
+[00:40:04.251] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:04.440] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:06.215] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/todos" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:40:23.740] Server  LOG      ✓ Compiled in 66ms
+[00:40:24.100] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:29:32
+Parsing ecmascript source code failed
+  27 |               </Badge>
+  28 |             ) : (
+> 29 |               <Badge variant={}>Pending</Badge>
+     |                                ^
+  30 |             )}
+  31 |           </li>
+  32 |         ))}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:40:24.100] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:29:41
+Parsing ecmascript source code failed
+  27 |               </Badge>
+  28 |             ) : (
+> 29 |               <Badge variant={}>Pending</Badge>
+     |                                         ^^^^^^^
+  30 |             )}
+  31 |           </li>
+  32 |         ))}
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:40:24.100] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:29:32
+Parsing ecmascript source code failed
+  27 |               </Badge>
+  28 |             ) : (
+> 29 |               <Badge variant={}>Pending</Badge>
+     |                                ^
+  30 |             )}
+  31 |           </li>
+  32 |         ))}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:40:24.100] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:29:41
+Parsing ecmascript source code failed
+  27 |               </Badge>
+  28 |             ) : (
+> 29 |               <Badge variant={}>Pending</Badge>
+     |                                         ^^^^^^^
+  30 |             )}
+  31 |           </li>
+  32 |         ))}
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:40:25.463] Server  LOG      ✓ Compiled in 69ms
+[00:40:26.104] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:29:29
+Parsing ecmascript source code failed
+  27 |               </Badge>
+  28 |             ) : (
+> 29 |               <Badge variant=>Pending</Badge>
+     |                             ^^
+  30 |             )}
+  31 |           </li>
+  32 |         ))}
+
+Expected '</', got '=>'
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:40:26.104] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:29:29
+Parsing ecmascript source code failed
+  27 |               </Badge>
+  28 |             ) : (
+> 29 |               <Badge variant=>Pending</Badge>
+     |                             ^^
+  30 |             )}
+  31 |           </li>
+  32 |         ))}
+
+Expected '</', got '=>'
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:40:26.899] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:40:26.899] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:40:28.941] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:29.456] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:30.627] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/todos" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         suppresshydrationwarning="true"
+-                         data-qb-installed="true"
+                        >
+                          <body
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:42:12.190] Server  LOG      ✓ Compiled in 693ms
+[00:42:15.576] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:16.248] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:18.120] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/todos" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <ClientSegmentRoot Component={function RootLayout} slots={{...}} ...>
+                        <RootLayout params={Promise}>
+                          <html lang="en">
+                            <body
+-                             cz-shortcut-listen="true"
+                            >
+                  ...
+
+[00:42:38.474] Server  LOG      ✓ Compiled in 81ms
+[00:42:39.101] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:3:17
+Ecmascript file had an error
+  1 |
+  2 | import { Badge } from "@/components/ui/badge";
+> 3 | import React, { useEffect, useState } from "react";
+    |                 ^^^^^^^^^
+  4 |
+  5 | const page = () => {
+  6 |   const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:42:39.101] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:3:28
+Ecmascript file had an error
+  1 |
+  2 | import { Badge } from "@/components/ui/badge";
+> 3 | import React, { useEffect, useState } from "react";
+    |                            ^^^^^^^^
+  4 |
+  5 | const page = () => {
+  6 |   const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:42:39.101] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:3:17
+Ecmascript file had an error
+  1 |
+  2 | import { Badge } from "@/components/ui/badge";
+> 3 | import React, { useEffect, useState } from "react";
+    |                 ^^^^^^^^^
+  4 |
+  5 | const page = () => {
+  6 |   const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:42:39.101] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:3:28
+Ecmascript file had an error
+  1 |
+  2 | import { Badge } from "@/components/ui/badge";
+> 3 | import React, { useEffect, useState } from "react";
+    |                            ^^^^^^^^
+  4 |
+  5 | const page = () => {
+  6 |   const [todos, setTodos] = useState([]);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:43:03.460] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:06.096] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/todos" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <ClientSegmentRoot Component={function RootLayout} slots={{...}} ...>
+                        <RootLayout params={Promise}>
+                          <html lang="en">
+                            <body
+-                             cz-shortcut-listen="true"
+                            >
+                  ...
+
+[00:44:10.660] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:44:10.669] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:44:10.672] Server  LOG      ✓ Compiled in 89ms
+[00:44:12.642] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:14.768] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:25.293] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:44:25.295] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:44:25.716] Server  LOG      ✓ Compiled in 143ms
+[00:44:26.428] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:26.993] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:29.141] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/todos" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <ClientSegmentRoot Component={function RootLayout} slots={{...}} ...>
+                        <RootLayout params={Promise}>
+                          <html
+                            lang="en"
+-                           suppresshydrationwarning="true"
+-                           data-qb-installed="true"
+                          >
+                            <body
+-                             cz-shortcut-listen="true"
+                            >
+                  ...
+
+[00:44:46.919] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:44:46.923] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:44:46.927] Server  LOG      ✓ Compiled in 91ms
+[00:44:48.179] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:50.325] Server  LOG      ✓ Compiled in 68ms
+[00:44:51.102] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:29:70
+Parsing ecmascript source code failed
+  27 |             ) : (
+  28 |               <Badge
+> 29 |                 className="bg-green-500 text-white dark:bg-green-600"\>Pending</Badge>
+     |                                                                      ^
+  30 |             )}
+  31 |           </li>
+  32 |         ))}
+
+Expected unicode escape
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:44:51.102] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:29:71
+Parsing ecmascript source code failed
+  27 |             ) : (
+  28 |               <Badge
+> 29 |                 className="bg-green-500 text-white dark:bg-green-600"\>Pending</Badge>
+     |                                                                       ^
+  30 |             )}
+  31 |           </li>
+  32 |         ))}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:44:51.102] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:29:80
+Parsing ecmascript source code failed
+  27 |             ) : (
+  28 |               <Badge
+> 29 |                 className="bg-green-500 text-white dark:bg-green-600"\>Pending</Badge>
+     |                                                                                ^^^^^^^
+  30 |             )}
+  31 |           </li>
+  32 |         ))}
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:44:51.267] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:51.737] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:44:51.738] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:29:70
+Parsing ecmascript source code failed
+  27 |             ) : (
+  28 |               <Badge
+> 29 |                 className="bg-green-500 text-white dark:bg-green-600"\>Pending</Badge>
+     |                                                                      ^
+  30 |             )}
+  31 |           </li>
+  32 |         ))}
+
+Expected unicode escape
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:44:51.738] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:29:71
+Parsing ecmascript source code failed
+  27 |             ) : (
+  28 |               <Badge
+> 29 |                 className="bg-green-500 text-white dark:bg-green-600"\>Pending</Badge>
+     |                                                                       ^
+  30 |             )}
+  31 |           </li>
+  32 |         ))}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:44:51.738] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:29:80
+Parsing ecmascript source code failed
+  27 |             ) : (
+  28 |               <Badge
+> 29 |                 className="bg-green-500 text-white dark:bg-green-600"\>Pending</Badge>
+     |                                                                                ^^^^^^^
+  30 |             )}
+  31 |           </li>
+  32 |         ))}
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:44:52.865] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:53.331] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:44:53.332] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:29:70
+Parsing ecmascript source code failed
+  27 |             ) : (
+  28 |               <Badge
+> 29 |                 className="bg-green-500 text-white dark:bg-green-600"\>Pending</Badge>
+     |                                                                      ^
+  30 |             )}
+  31 |           </li>
+  32 |         ))}
+
+Expected unicode escape
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:44:53.332] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:29:71
+Parsing ecmascript source code failed
+  27 |             ) : (
+  28 |               <Badge
+> 29 |                 className="bg-green-500 text-white dark:bg-green-600"\>Pending</Badge>
+     |                                                                       ^
+  30 |             )}
+  31 |           </li>
+  32 |         ))}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:44:53.332] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:29:80
+Parsing ecmascript source code failed
+  27 |             ) : (
+  28 |               <Badge
+> 29 |                 className="bg-green-500 text-white dark:bg-green-600"\>Pending</Badge>
+     |                                                                                ^^^^^^^
+  30 |             )}
+  31 |           </li>
+  32 |         ))}
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:44:53.332] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:29:70
+Parsing ecmascript source code failed
+  27 |             ) : (
+  28 |               <Badge
+> 29 |                 className="bg-green-500 text-white dark:bg-green-600"\>Pending</Badge>
+     |                                                                      ^
+  30 |             )}
+  31 |           </li>
+  32 |         ))}
+
+Expected unicode escape
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:44:53.332] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:29:71
+Parsing ecmascript source code failed
+  27 |             ) : (
+  28 |               <Badge
+> 29 |                 className="bg-green-500 text-white dark:bg-green-600"\>Pending</Badge>
+     |                                                                       ^
+  30 |             )}
+  31 |           </li>
+  32 |         ))}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:44:53.332] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:29:80
+Parsing ecmascript source code failed
+  27 |             ) : (
+  28 |               <Badge
+> 29 |                 className="bg-green-500 text-white dark:bg-green-600"\>Pending</Badge>
+     |                                                                                ^^^^^^^
+  30 |             )}
+  31 |           </li>
+  32 |         ))}
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:44:53.332] Browser ERROR   Can't perform a React state update on a component that hasn't mounted yet. This indicates that you have a side-effect in your render function that asynchronously tries to update the component. Move this work to useEffect instead.
+[00:44:54.566] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:55.969] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:44:56.394] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:44:56.396] Server  LOG      ✓ Compiled in 131ms
+[00:44:57.223] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:58.684] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:00.096] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/todos" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <ClientSegmentRoot Component={function RootLayout} slots={{...}} ...>
+                        <RootLayout params={Promise}>
+                          <html
+                            lang="en"
+-                           suppresshydrationwarning="true"
+-                           data-qb-installed="true"
+                          >
+                            <body
+-                             cz-shortcut-listen="true"
+                            >
+                  ...
+
+[00:45:45.038] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:45:45.042] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:45:45.170] Server  LOG      ✓ Compiled in 90ms
+[00:45:46.571] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:46.593] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:48.109] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/settings" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <ClientSegmentRoot Component={function RootLayout} slots={{...}} ...>
+                        <RootLayout params={Promise}>
+                          <html lang="en">
+                            <body
+-                             cz-shortcut-listen="true"
+                            >
+                  ...
+
+[00:45:51.624] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:45:52.048] Server  LOG      ✓ Compiled in 82ms
+[00:45:52.908] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:56.779] Server  LOG      ✓ Compiled in 86ms
+[00:45:57.106] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:39:1
+Parsing ecmascript source code failed
+  37 |     </div>
+  38 |   );
+> 39 | };
+     | ^
+  40 |
+  41 | export default page;
+  42 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:45:57.107] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:39:1
+Parsing ecmascript source code failed
+  37 |     </div>
+  38 |   );
+> 39 | };
+     | ^
+  40 |
+  41 | export default page;
+  42 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:45:59.099] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:40:1
+Parsing ecmascript source code failed
+  38 |     </div>
+  39 |   );
+> 40 | };
+     | ^
+  41 |
+  42 | export default page;
+  43 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:45:59.100] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:40:1
+Parsing ecmascript source code failed
+  38 |     </div>
+  39 |   );
+> 40 | };
+     | ^
+  41 |
+  42 | export default page;
+  43 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:46:00.101] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:40:1
+Parsing ecmascript source code failed
+  38 |     </div>
+  39 |   );
+> 40 | };
+     | ^
+  41 |
+  42 | export default page;
+  43 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:46:00.101] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:40:1
+Parsing ecmascript source code failed
+  38 |     </div>
+  39 |   );
+> 40 | };
+     | ^
+  41 |
+  42 | export default page;
+  43 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:46:02.099] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:41:1
+Parsing ecmascript source code failed
+  39 |     </div>
+  40 |   );
+> 41 | };
+     | ^
+  42 |
+  43 | export default page;
+  44 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:46:02.099] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:41:1
+Parsing ecmascript source code failed
+  39 |     </div>
+  40 |   );
+> 41 | };
+     | ^
+  42 |
+  43 | export default page;
+  44 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:46:03.406] Server  LOG      ✓ Compiled in 73ms
+[00:46:04.117] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:40:5
+Parsing ecmascript source code failed
+  38 |                 <strong>Order #12345</strong> -{" "}
+  39 |                 <Badge
+> 40 |     </div>
+     |     ^
+  41 |   );
+  42 | };
+  43 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:46:04.117] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:40:6
+Parsing ecmascript source code failed
+  38 |                 <strong>Order #12345</strong> -{" "}
+  39 |                 <Badge
+> 40 |     </div>
+     |      ^^^^^
+  41 |   );
+  42 | };
+  43 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:46:04.123] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:40:5
+Parsing ecmascript source code failed
+  38 |                 <strong>Order #12345</strong> -{" "}
+  39 |                 <Badge
+> 40 |     </div>
+     |     ^
+  41 |   );
+  42 | };
+  43 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:46:04.123] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:40:6
+Parsing ecmascript source code failed
+  38 |                 <strong>Order #12345</strong> -{" "}
+  39 |                 <Badge
+> 40 |     </div>
+     |      ^^^^^
+  41 |   );
+  42 | };
+  43 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:46:07.206] Server  LOG      ✓ Compiled in 63ms
+[00:46:08.109] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:44:1
+Parsing ecmascript source code failed
+  42 |     </div>
+  43 |   );
+> 44 | };
+     | ^
+  45 |
+  46 | export default page;
+  47 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:46:08.109] Browser ERROR   ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx:44:1
+Parsing ecmascript source code failed
+  42 |     </div>
+  43 |   );
+> 44 | };
+     | ^
+  45 |
+  46 | export default page;
+  47 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component Browser]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Client Component SSR]
+    ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx [Server Component]
+[00:46:10.491] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:46:10.492] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:46:11.745] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:27.980] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:47:27.981] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Documents/Tosiq-web12/web/nextjs/mywebsite/app/todos/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:47:28.369] Server  LOG      ✓ Compiled in 70ms
+[00:47:29.834] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:31.105] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/todos" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <ClientSegmentRoot Component={function RootLayout} slots={{...}} ...>
+                        <RootLayout params={Promise}>
+                          <html
+                            lang="en"
+-                           suppresshydrationwarning="true"
+-                           data-qb-installed="true"
+                          >
+                            <body
+-                             cz-shortcut-listen="true"
+                            >
+                  ...
+
+[00:47:32.268] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:35.107] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/todos" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <ClientSegmentRoot Component={function RootLayout} slots={{...}} ...>
+                        <RootLayout params={Promise}>
+                          <html
+                            lang="en"
+-                           suppresshydrationwarning="true"
+-                           data-qb-installed="true"
+                          >
+                  ...
+

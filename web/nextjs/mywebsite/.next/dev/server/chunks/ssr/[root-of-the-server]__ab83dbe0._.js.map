@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/PNY/Documents/Tosiq-web12/web/nextjs/mywebsite/app/dashboard/page.jsx"],"sourcesContent":["import React from \"react\";\r\n\r\nconst page = () => {\r\n\r\n  return <></>;\r\n};\r\n\r\nexport default page;\r\n"],"names":[],"mappings":";;;;;AAAA;;;AAEA,MAAM,OAAO;IAEX,qBAAO;AACT;uCAEe"}}]
+}
