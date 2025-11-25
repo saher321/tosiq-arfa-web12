@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/PNY/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/%28pages%29/about/page.jsx"],"sourcesContent":["\r\nimport React from 'react'\r\n\r\nconst page = () => {\r\n  return (\r\n    <div>About</div>\r\n  )\r\n}\r\n\r\nexport default page"],"names":[],"mappings":";;;;;AACA;;;AAEA,MAAM,OAAO;IACX,qBACE,0TAAC;kBAAI;;;;;;AAET;uCAEe"}}]
+}

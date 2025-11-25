@@ -1,0 +1,12 @@
+/* [project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/repairs.css [app-client] (css) */
+footer {
+  color: #f1f1f1;
+  background-color: #333;
+  padding: 16px;
+}
+
+footer :where(h2, .footer-links) {
+  text-align: center;
+}
+
+/*# sourceMappingURL=Documents_Tosiq-web12_cms_repairs_cms_frontend_user_app_repairs_css_bad6b30c._.single.css.map*/

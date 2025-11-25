@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/repairs.css"],"sourcesContent":["/* footer css */\r\nfooter {\r\n    background-color: #333;\r\n    color: #f1f1f1;\r\n    padding: 16px;\r\n}\r\nfooter :where(h2, .footer-links) {\r\n    text-align: center;\r\n}\r\n.footer-links {}"],"names":[],"mappings":"AACA;;;;;;AAKA"}}]
+}

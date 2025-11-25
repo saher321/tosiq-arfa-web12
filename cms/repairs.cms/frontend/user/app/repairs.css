@@ -1,0 +1,10 @@
+/* footer css */
+footer {
+    background-color: #333;
+    color: #f1f1f1;
+    padding: 16px;
+}
+footer :where(h2, .footer-links) {
+    text-align: center;
+}
+.footer-links {}
