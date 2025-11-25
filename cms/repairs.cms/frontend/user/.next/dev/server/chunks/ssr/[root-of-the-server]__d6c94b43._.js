@@ -158,7 +158,7 @@ const RepairFooter = ()=>{
                 }, void 0, false, {
                     fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
                     lineNumber: 10,
-                    columnNumber: 13
+                    columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "footer-links",
@@ -171,12 +171,12 @@ const RepairFooter = ()=>{
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
                                     lineNumber: 14,
-                                    columnNumber: 21
+                                    columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
                                 lineNumber: 13,
-                                columnNumber: 17
+                                columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -185,12 +185,12 @@ const RepairFooter = ()=>{
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
                                     lineNumber: 17,
-                                    columnNumber: 21
+                                    columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
                                 lineNumber: 16,
-                                columnNumber: 17
+                                columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -199,18 +199,18 @@ const RepairFooter = ()=>{
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
                                     lineNumber: 20,
-                                    columnNumber: 21
+                                    columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
                                 lineNumber: 19,
-                                columnNumber: 17
+                                columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
                         lineNumber: 12,
-                        columnNumber: 13
+                        columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
@@ -234,37 +234,91 @@ const RepairFooter = ()=>{
                         }, void 0, true, {
                             fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
                             lineNumber: 26,
-                            columnNumber: 13
+                            columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "social-icons",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaFacebook"], {
-                                    size: 24
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        href: "#",
+                                        target: "_blank",
+                                        children: [
+                                            " ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaFacebook"], {
+                                                size: 24
+                                            }, void 0, false, {
+                                                fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
+                                                lineNumber: 31,
+                                                columnNumber: 46
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            " "
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
+                                        lineNumber: 31,
+                                        columnNumber: 17
+                                    }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
                                     lineNumber: 30,
-                                    columnNumber: 17
+                                    columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaInstagram"], {
-                                    size: 24
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        href: "#",
+                                        target: "_blank",
+                                        children: [
+                                            " ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaInstagram"], {
+                                                size: 24
+                                            }, void 0, false, {
+                                                fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
+                                                lineNumber: 34,
+                                                columnNumber: 46
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            " "
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
+                                        lineNumber: 34,
+                                        columnNumber: 17
+                                    }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
-                                    lineNumber: 31,
-                                    columnNumber: 17
+                                    lineNumber: 33,
+                                    columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaTwitter"], {
-                                    size: 24
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        href: "#",
+                                        target: "_blank",
+                                        children: [
+                                            " ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaTwitter"], {
+                                                size: 24
+                                            }, void 0, false, {
+                                                fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
+                                                lineNumber: 37,
+                                                columnNumber: 46
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            " "
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
+                                        lineNumber: 37,
+                                        columnNumber: 17
+                                    }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
-                                    lineNumber: 32,
-                                    columnNumber: 17
+                                    lineNumber: 36,
+                                    columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
                             lineNumber: 29,
-                            columnNumber: 13
+                            columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
@@ -276,7 +330,7 @@ const RepairFooter = ()=>{
         }, void 0, true, {
             fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
             lineNumber: 9,
-            columnNumber: 9
+            columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
@@ -340,7 +394,17 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$
 ;
 const page = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$app$2f$layout$2f$WebLayout$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-        children: "Home"
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(HomeSlider, {}, void 0, false, {
+                fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/(pages)/page.jsx",
+                lineNumber: 9,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0))
+        }, void 0, false, {
+            fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/(pages)/page.jsx",
+            lineNumber: 8,
+            columnNumber: 6
+        }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/(pages)/page.jsx",
         lineNumber: 7,

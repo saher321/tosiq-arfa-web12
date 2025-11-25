@@ -188,12 +188,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$
 ;
 ;
 const RepairFooter = ()=>{
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(6);
-    if ($[0] !== "4d86990d263b71befe2c47fb395385a3c95315e0ead0b5d131947d35b14c3485") {
-        for(let $i = 0; $i < 6; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(8);
+    if ($[0] !== "473f9c71d265aa62c44088ff0f3d0bd2bab9db12fd602537606fb00d1cb99e32") {
+        for(let $i = 0; $i < 8; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "4d86990d263b71befe2c47fb395385a3c95315e0ead0b5d131947d35b14c3485";
+        $[0] = "473f9c71d265aa62c44088ff0f3d0bd2bab9db12fd602537606fb00d1cb99e32";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -298,7 +298,69 @@ const RepairFooter = ()=>{
     }
     let t4;
     if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
-        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                href: "#",
+                target: "_blank",
+                children: [
+                    " ",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaFacebook"], {
+                        size: 24
+                    }, void 0, false, {
+                        fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
+                        lineNumber: 41,
+                        columnNumber: 44
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    " "
+                ]
+            }, void 0, true, {
+                fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
+                lineNumber: 41,
+                columnNumber: 15
+            }, ("TURBOPACK compile-time value", void 0))
+        }, void 0, false, {
+            fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
+            lineNumber: 41,
+            columnNumber: 10
+        }, ("TURBOPACK compile-time value", void 0));
+        $[5] = t4;
+    } else {
+        t4 = $[5];
+    }
+    let t5;
+    if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                href: "#",
+                target: "_blank",
+                children: [
+                    " ",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaInstagram"], {
+                        size: 24
+                    }, void 0, false, {
+                        fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
+                        lineNumber: 48,
+                        columnNumber: 44
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    " "
+                ]
+            }, void 0, true, {
+                fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
+                lineNumber: 48,
+                columnNumber: 15
+            }, ("TURBOPACK compile-time value", void 0))
+        }, void 0, false, {
+            fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
+            lineNumber: 48,
+            columnNumber: 10
+        }, ("TURBOPACK compile-time value", void 0));
+        $[6] = t5;
+    } else {
+        t5 = $[6];
+    }
+    let t6;
+    if ($[7] === Symbol.for("react.memo_cache_sentinel")) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Container$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__["Container"], {
                 fluid: "md",
                 children: [
@@ -312,55 +374,61 @@ const RepairFooter = ()=>{
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "social-icons",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaFacebook"], {
-                                        size: 24
+                                    t4,
+                                    t5,
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: "#",
+                                            target: "_blank",
+                                            children: [
+                                                " ",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaTwitter"], {
+                                                    size: 24
+                                                }, void 0, false, {
+                                                    fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
+                                                    lineNumber: 55,
+                                                    columnNumber: 159
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                " "
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
+                                            lineNumber: 55,
+                                            columnNumber: 130
+                                        }, ("TURBOPACK compile-time value", void 0))
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
-                                        lineNumber: 41,
-                                        columnNumber: 117
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaInstagram"], {
-                                        size: 24
-                                    }, void 0, false, {
-                                        fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
-                                        lineNumber: 41,
-                                        columnNumber: 141
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaTwitter"], {
-                                        size: 24
-                                    }, void 0, false, {
-                                        fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
-                                        lineNumber: 41,
-                                        columnNumber: 166
+                                        lineNumber: 55,
+                                        columnNumber: 125
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
-                                lineNumber: 41,
+                                lineNumber: 55,
                                 columnNumber: 87
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
-                        lineNumber: 41,
+                        lineNumber: 55,
                         columnNumber: 52
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
-                lineNumber: 41,
+                lineNumber: 55,
                 columnNumber: 18
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/components/RepairFooter.jsx",
-            lineNumber: 41,
+            lineNumber: 55,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
-        $[5] = t4;
+        $[7] = t6;
     } else {
-        t4 = $[5];
+        t6 = $[7];
     }
-    return t4;
+    return t6;
 };
 _c = RepairFooter;
 const __TURBOPACK__default__export__ = RepairFooter;
@@ -389,11 +457,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$
 ;
 const WebLayout = (t0)=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(7);
-    if ($[0] !== "1b7a749c18297cc285aa29635d9bc78d5cb12ac6729c0c1ba177d024341fc6d0") {
+    if ($[0] !== "928c6ba3371764a1bcff486d475244e02a0307a1c2669a5c68655bf727ae8fa3") {
         for(let $i = 0; $i < 7; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "1b7a749c18297cc285aa29635d9bc78d5cb12ac6729c0c1ba177d024341fc6d0";
+        $[0] = "928c6ba3371764a1bcff486d475244e02a0307a1c2669a5c68655bf727ae8fa3";
     }
     const { children } = t0;
     let t1;
@@ -470,7 +538,17 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$
 ;
 const page = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$app$2f$layout$2f$WebLayout$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-        children: "Home"
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(HomeSlider, {}, void 0, false, {
+                fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/(pages)/page.jsx",
+                lineNumber: 9,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0))
+        }, void 0, false, {
+            fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/(pages)/page.jsx",
+            lineNumber: 8,
+            columnNumber: 6
+        }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/(pages)/page.jsx",
         lineNumber: 7,

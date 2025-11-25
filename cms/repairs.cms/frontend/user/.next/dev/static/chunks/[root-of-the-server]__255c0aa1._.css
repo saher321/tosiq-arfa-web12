@@ -136,6 +136,29 @@ a {
 }
 
 /* [project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/app/repairs.css [app-client] (css) */
+#basic-navbar-nav a {
+  text-decoration: none;
+}
+
+#basic-navbar-nav a:nth-child(2) {
+  margin: 0 12px;
+}
+
+section.page-section {
+  margin-bottom: 32px;
+}
+
+.slider-img {
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+}
+
+.bg-gray {
+  background-color: #ccc;
+  padding: 56px 0;
+}
+
 footer {
   color: #f1f1f1;
   background-color: #333;
@@ -144,6 +167,36 @@ footer {
 
 footer :where(h2, .footer-links) {
   text-align: center;
+}
+
+.footer-links ul {
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.footer-links ul li a {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.footer-bottom .social-icons {
+  color: #f1f1f1;
+  gap: 12px;
+  display: flex;
+}
+
+.footer-bottom .social-icons a {
+  color: #f1f1f1;
 }
 
 /* [project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/bootstrap/dist/css/bootstrap.min.css [app-client] (css) */

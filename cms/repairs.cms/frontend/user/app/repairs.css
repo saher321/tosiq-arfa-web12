@@ -1,3 +1,25 @@
+/* navbar */
+#basic-navbar-nav a {
+    text-decoration: none;
+}
+#basic-navbar-nav a:nth-child(2) {
+    margin: 0px 12px;
+}
+
+section.page-section {
+    margin-bottom: 32px;
+}
+/* home slider */
+.slider-img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+/* home:: contact us section */
+.bg-gray {
+    background-color: #ccc;
+    padding: 56px 0px; 
+}
 /* footer css */
 footer {
     background-color: #333;
@@ -7,4 +29,28 @@ footer {
 footer :where(h2, .footer-links) {
     text-align: center;
 }
-.footer-links {}
+.footer-links ul {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+.footer-links ul li a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-bottom .social-icons {
+    display: flex;
+    gap: 12px;
+    color: #f1f1f1;
+}
+.footer-bottom .social-icons a {
+    color: #f1f1f1;
+}

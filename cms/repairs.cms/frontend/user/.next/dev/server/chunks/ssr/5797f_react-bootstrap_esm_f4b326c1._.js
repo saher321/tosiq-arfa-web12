@@ -1,0 +1,2115 @@
+module.exports = [
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "DEFAULT_BREAKPOINTS",
+    ()=>DEFAULT_BREAKPOINTS,
+    "DEFAULT_MIN_BREAKPOINT",
+    ()=>DEFAULT_MIN_BREAKPOINT,
+    "ThemeConsumer",
+    ()=>Consumer,
+    "createBootstrapComponent",
+    ()=>createBootstrapComponent,
+    "default",
+    ()=>__TURBOPACK__default__export__,
+    "useBootstrapBreakpoints",
+    ()=>useBootstrapBreakpoints,
+    "useBootstrapMinBreakpoint",
+    ()=>useBootstrapMinBreakpoint,
+    "useBootstrapPrefix",
+    ()=>useBootstrapPrefix,
+    "useIsRTL",
+    ()=>useIsRTL
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+const DEFAULT_BREAKPOINTS = [
+    'xxl',
+    'xl',
+    'lg',
+    'md',
+    'sm',
+    'xs'
+];
+const DEFAULT_MIN_BREAKPOINT = 'xs';
+const ThemeContext = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createContext"]({
+    prefixes: {},
+    breakpoints: DEFAULT_BREAKPOINTS,
+    minBreakpoint: DEFAULT_MIN_BREAKPOINT
+});
+const { Consumer, Provider } = ThemeContext;
+function ThemeProvider({ prefixes = {}, breakpoints = DEFAULT_BREAKPOINTS, minBreakpoint = DEFAULT_MIN_BREAKPOINT, dir, children }) {
+    const contextValue = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>({
+            prefixes: {
+                ...prefixes
+            },
+            breakpoints,
+            minBreakpoint,
+            dir
+        }), [
+        prefixes,
+        breakpoints,
+        minBreakpoint,
+        dir
+    ]);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(Provider, {
+        value: contextValue,
+        children: children
+    });
+}
+function useBootstrapPrefix(prefix, defaultPrefix) {
+    const { prefixes } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useContext"])(ThemeContext);
+    return prefix || prefixes[defaultPrefix] || defaultPrefix;
+}
+function useBootstrapBreakpoints() {
+    const { breakpoints } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useContext"])(ThemeContext);
+    return breakpoints;
+}
+function useBootstrapMinBreakpoint() {
+    const { minBreakpoint } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useContext"])(ThemeContext);
+    return minBreakpoint;
+}
+function useIsRTL() {
+    const { dir } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useContext"])(ThemeContext);
+    return dir === 'rtl';
+}
+function createBootstrapComponent(Component, opts) {
+    if (typeof opts === 'string') opts = {
+        prefix: opts
+    };
+    const isClassy = Component.prototype && Component.prototype.isReactComponent;
+    // If it's a functional component make sure we don't break it with a ref
+    const { prefix, forwardRefAs = isClassy ? 'ref' : 'innerRef' } = opts;
+    const Wrapped = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ ...props }, ref)=>{
+        props[forwardRefAs] = ref;
+        const bsPrefix = useBootstrapPrefix(props.bsPrefix, prefix);
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(Component, {
+            ...props,
+            bsPrefix: bsPrefix
+        });
+    });
+    Wrapped.displayName = `Bootstrap(${Component.displayName || Component.name})`;
+    return Wrapped;
+}
+;
+const __TURBOPACK__default__export__ = ThemeProvider;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CarouselCaption.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+const CarouselCaption = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ className, bsPrefix, as: Component = 'div', ...props }, ref)=>{
+    bsPrefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'carousel-caption');
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(Component, {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, bsPrefix),
+        ...props
+    });
+});
+CarouselCaption.displayName = 'CarouselCaption';
+const __TURBOPACK__default__export__ = CarouselCaption;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CarouselItem.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+const CarouselItem = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+as: Component = 'div', bsPrefix, className, ...props }, ref)=>{
+    const finalClassName = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'carousel-item'));
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(Component, {
+        ref: ref,
+        ...props,
+        className: finalClassName
+    });
+});
+CarouselItem.displayName = 'CarouselItem';
+const __TURBOPACK__default__export__ = CarouselItem;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ElementChildren.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "forEach",
+    ()=>forEach,
+    "hasChildOfType",
+    ()=>hasChildOfType,
+    "map",
+    ()=>map
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+;
+/**
+ * Iterates through children that are typically specified as `props.children`,
+ * but only maps over children that are "valid elements".
+ *
+ * The mapFunction provided index will be normalised to the components mapped,
+ * so an invalid component would not increase the index.
+ *
+ */ function map(children, func) {
+    let index = 0;
+    return __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Children"].map(children, (child)=>/*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["isValidElement"](child) ? func(child, index++) : child);
+}
+/**
+ * Iterates through children that are "valid elements".
+ *
+ * The provided forEachFunc(child, index) will be called for each
+ * leaf child with the index reflecting the position relative to "valid components".
+ */ function forEach(children, func) {
+    let index = 0;
+    __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Children"].forEach(children, (child)=>{
+        if (/*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["isValidElement"](child)) func(child, index++);
+    });
+}
+/**
+ * Finds whether a component's `children` prop includes a React element of the
+ * specified type.
+ */ function hasChildOfType(children, type) {
+    return __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Children"].toArray(children).some((child)=>/*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["isValidElement"](child) && child.type === type);
+}
+;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/transitionEndListener.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>transitionEndListener
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$dom$2d$helpers$2f$esm$2f$css$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/dom-helpers/esm/css.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$dom$2d$helpers$2f$esm$2f$transitionEnd$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/dom-helpers/esm/transitionEnd.js [app-ssr] (ecmascript)");
+;
+;
+function parseDuration(node, property) {
+    const str = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$dom$2d$helpers$2f$esm$2f$css$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(node, property) || '';
+    const mult = str.indexOf('ms') === -1 ? 1000 : 1;
+    return parseFloat(str) * mult;
+}
+function transitionEndListener(element, handler) {
+    const duration = parseDuration(element, 'transitionDuration');
+    const delay = parseDuration(element, 'transitionDelay');
+    const remove = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$dom$2d$helpers$2f$esm$2f$transitionEnd$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(element, (e)=>{
+        if (e.target === element) {
+            remove();
+            handler(e);
+        }
+    }, duration + delay);
+}
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/triggerBrowserReflow.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// reading a dimension prop will cause the browser to recalculate,
+// which will let our animations work
+__turbopack_context__.s([
+    "default",
+    ()=>triggerBrowserReflow
+]);
+function triggerBrowserReflow(node) {
+    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
+    node.offsetHeight;
+}
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/safeFindDOMNode.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>safeFindDOMNode
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$dom$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-dom.js [app-ssr] (ecmascript)");
+;
+function safeFindDOMNode(componentOrElement) {
+    if (componentOrElement && 'setState' in componentOrElement) {
+        // TODO: Remove in next major.
+        // eslint-disable-next-line react/no-find-dom-node
+        return __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$dom$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].findDOMNode(componentOrElement);
+    }
+    return componentOrElement != null ? componentOrElement : null;
+}
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/TransitionWrapper.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$transition$2d$group$2f$esm$2f$Transition$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-transition-group/esm/Transition.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$hooks$2f$esm$2f$useMergedRefs$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/@restart/hooks/esm/useMergedRefs.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$safeFindDOMNode$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/safeFindDOMNode.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+// Normalizes Transition callbacks when nodeRef is used.
+const TransitionWrapper = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].forwardRef(({ onEnter, onEntering, onEntered, onExit, onExiting, onExited, addEndListener, children, childRef, ...props }, ref)=>{
+    const nodeRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const mergedRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$hooks$2f$esm$2f$useMergedRefs$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(nodeRef, childRef);
+    const attachRef = (r)=>{
+        mergedRef((0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$safeFindDOMNode$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(r));
+    };
+    const normalize = (callback)=>(param)=>{
+            if (callback && nodeRef.current) {
+                callback(nodeRef.current, param);
+            }
+        };
+    const handleEnter = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])(normalize(onEnter), [
+        onEnter
+    ]);
+    const handleEntering = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])(normalize(onEntering), [
+        onEntering
+    ]);
+    const handleEntered = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])(normalize(onEntered), [
+        onEntered
+    ]);
+    const handleExit = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])(normalize(onExit), [
+        onExit
+    ]);
+    const handleExiting = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])(normalize(onExiting), [
+        onExiting
+    ]);
+    const handleExited = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])(normalize(onExited), [
+        onExited
+    ]);
+    const handleAddEndListener = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])(normalize(addEndListener), [
+        addEndListener
+    ]);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$transition$2d$group$2f$esm$2f$Transition$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+        ref: ref,
+        ...props,
+        onEnter: handleEnter,
+        onEntered: handleEntered,
+        onEntering: handleEntering,
+        onExit: handleExit,
+        onExited: handleExited,
+        onExiting: handleExiting,
+        addEndListener: handleAddEndListener,
+        nodeRef: nodeRef,
+        children: typeof children === 'function' ? (status, innerProps)=>// TODO: Types for RTG missing innerProps, so need to cast.
+            children(status, {
+                ...innerProps,
+                ref: attachRef
+            }) : /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].cloneElement(children, {
+            ref: attachRef
+        })
+    });
+});
+TransitionWrapper.displayName = 'TransitionWrapper';
+const __TURBOPACK__default__export__ = TransitionWrapper;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/Carousel.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$hooks$2f$esm$2f$useEventCallback$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/@restart/hooks/esm/useEventCallback.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$hooks$2f$esm$2f$useUpdateEffect$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/@restart/hooks/esm/useUpdateEffect.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$hooks$2f$esm$2f$useCommittedRef$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/@restart/hooks/esm/useCommittedRef.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$hooks$2f$esm$2f$useTimeout$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/@restart/hooks/esm/useTimeout.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$ui$2f$cjs$2f$Anchor$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/@restart/ui/cjs/Anchor.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$uncontrollable$2f$lib$2f$esm$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/uncontrollable/lib/esm/index.js [app-ssr] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$uncontrollable$2f$lib$2f$esm$2f$hook$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__useUncontrolled$3e$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/uncontrollable/lib/esm/hook.js [app-ssr] (ecmascript) <export default as useUncontrolled>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CarouselCaption$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CarouselCaption.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CarouselItem$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CarouselItem.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ElementChildren$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ElementChildren.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$transitionEndListener$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/transitionEndListener.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$triggerBrowserReflow$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/triggerBrowserReflow.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$TransitionWrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/TransitionWrapper.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const SWIPE_THRESHOLD = 40;
+function isVisible(element) {
+    if (!element || !element.style || !element.parentNode || !element.parentNode.style) {
+        return false;
+    }
+    const elementStyle = getComputedStyle(element);
+    return elementStyle.display !== 'none' && elementStyle.visibility !== 'hidden' && getComputedStyle(element.parentNode).display !== 'none';
+}
+const Carousel = /*#__PURE__*/ // eslint-disable-next-line react/display-name
+__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ defaultActiveIndex = 0, ...uncontrolledProps }, ref)=>{
+    const { // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+    as: Component = 'div', bsPrefix, slide = true, fade = false, controls = true, indicators = true, indicatorLabels = [], activeIndex, onSelect, onSlide, onSlid, interval = 5000, keyboard = true, onKeyDown, pause = 'hover', onMouseOver, onMouseOut, wrap = true, touch = true, onTouchStart, onTouchMove, onTouchEnd, prevIcon = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])("span", {
+        "aria-hidden": "true",
+        className: "carousel-control-prev-icon"
+    }), prevLabel = 'Previous', nextIcon = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])("span", {
+        "aria-hidden": "true",
+        className: "carousel-control-next-icon"
+    }), nextLabel = 'Next', variant, className, children, ...props } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$uncontrollable$2f$lib$2f$esm$2f$hook$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__useUncontrolled$3e$__["useUncontrolled"])({
+        defaultActiveIndex,
+        ...uncontrolledProps
+    }, {
+        activeIndex: 'onSelect'
+    });
+    const prefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'carousel');
+    const isRTL = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useIsRTL"])();
+    const nextDirectionRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const [direction, setDirection] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('next');
+    const [paused, setPaused] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [isSliding, setIsSliding] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [renderedActiveIndex, setRenderedActiveIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(activeIndex || 0);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        if (!isSliding && activeIndex !== renderedActiveIndex) {
+            if (nextDirectionRef.current) {
+                setDirection(nextDirectionRef.current);
+            } else {
+                setDirection((activeIndex || 0) > renderedActiveIndex ? 'next' : 'prev');
+            }
+            if (slide) {
+                setIsSliding(true);
+            }
+            setRenderedActiveIndex(activeIndex || 0);
+        }
+    }, [
+        activeIndex,
+        isSliding,
+        renderedActiveIndex,
+        slide
+    ]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        if (nextDirectionRef.current) {
+            nextDirectionRef.current = null;
+        }
+    });
+    let numChildren = 0;
+    let activeChildInterval;
+    // Iterate to grab all of the children's interval values
+    // (and count them, too)
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ElementChildren$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forEach"])(children, (child, index)=>{
+        ++numChildren;
+        if (index === activeIndex) {
+            activeChildInterval = child.props.interval;
+        }
+    });
+    const activeChildIntervalRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$hooks$2f$esm$2f$useCommittedRef$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(activeChildInterval);
+    const prev = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])((event)=>{
+        if (isSliding) {
+            return;
+        }
+        let nextActiveIndex = renderedActiveIndex - 1;
+        if (nextActiveIndex < 0) {
+            if (!wrap) {
+                return;
+            }
+            nextActiveIndex = numChildren - 1;
+        }
+        nextDirectionRef.current = 'prev';
+        onSelect == null || onSelect(nextActiveIndex, event);
+    }, [
+        isSliding,
+        renderedActiveIndex,
+        onSelect,
+        wrap,
+        numChildren
+    ]);
+    // This is used in the setInterval, so it should not invalidate.
+    const next = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$hooks$2f$esm$2f$useEventCallback$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])((event)=>{
+        if (isSliding) {
+            return;
+        }
+        let nextActiveIndex = renderedActiveIndex + 1;
+        if (nextActiveIndex >= numChildren) {
+            if (!wrap) {
+                return;
+            }
+            nextActiveIndex = 0;
+        }
+        nextDirectionRef.current = 'next';
+        onSelect == null || onSelect(nextActiveIndex, event);
+    });
+    const elementRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])();
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useImperativeHandle"])(ref, ()=>({
+            element: elementRef.current,
+            prev,
+            next
+        }));
+    // This is used in the setInterval, so it should not invalidate.
+    const nextWhenVisible = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$hooks$2f$esm$2f$useEventCallback$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(()=>{
+        if (!document.hidden && isVisible(elementRef.current)) {
+            if (isRTL) {
+                prev();
+            } else {
+                next();
+            }
+        }
+    });
+    const slideDirection = direction === 'next' ? 'start' : 'end';
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$hooks$2f$esm$2f$useUpdateEffect$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(()=>{
+        if (slide) {
+            // These callbacks will be handled by the <Transition> callbacks.
+            return;
+        }
+        onSlide == null || onSlide(renderedActiveIndex, slideDirection);
+        onSlid == null || onSlid(renderedActiveIndex, slideDirection);
+    }, [
+        renderedActiveIndex
+    ]);
+    const orderClassName = `${prefix}-item-${direction}`;
+    const directionalClassName = `${prefix}-item-${slideDirection}`;
+    const handleEnter = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])((node)=>{
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$triggerBrowserReflow$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(node);
+        onSlide == null || onSlide(renderedActiveIndex, slideDirection);
+    }, [
+        onSlide,
+        renderedActiveIndex,
+        slideDirection
+    ]);
+    const handleEntered = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])(()=>{
+        setIsSliding(false);
+        onSlid == null || onSlid(renderedActiveIndex, slideDirection);
+    }, [
+        onSlid,
+        renderedActiveIndex,
+        slideDirection
+    ]);
+    const handleKeyDown = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])((event)=>{
+        if (keyboard && !/input|textarea/i.test(event.target.tagName)) {
+            switch(event.key){
+                case 'ArrowLeft':
+                    event.preventDefault();
+                    if (isRTL) {
+                        next(event);
+                    } else {
+                        prev(event);
+                    }
+                    return;
+                case 'ArrowRight':
+                    event.preventDefault();
+                    if (isRTL) {
+                        prev(event);
+                    } else {
+                        next(event);
+                    }
+                    return;
+                default:
+            }
+        }
+        onKeyDown == null || onKeyDown(event);
+    }, [
+        keyboard,
+        onKeyDown,
+        prev,
+        next,
+        isRTL
+    ]);
+    const handleMouseOver = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])((event)=>{
+        if (pause === 'hover') {
+            setPaused(true);
+        }
+        onMouseOver == null || onMouseOver(event);
+    }, [
+        pause,
+        onMouseOver
+    ]);
+    const handleMouseOut = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])((event)=>{
+        setPaused(false);
+        onMouseOut == null || onMouseOut(event);
+    }, [
+        onMouseOut
+    ]);
+    const touchStartXRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(0);
+    const touchDeltaXRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(0);
+    const touchUnpauseTimeout = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$hooks$2f$esm$2f$useTimeout$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])();
+    const handleTouchStart = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])((event)=>{
+        touchStartXRef.current = event.touches[0].clientX;
+        touchDeltaXRef.current = 0;
+        if (pause === 'hover') {
+            setPaused(true);
+        }
+        onTouchStart == null || onTouchStart(event);
+    }, [
+        pause,
+        onTouchStart
+    ]);
+    const handleTouchMove = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])((event)=>{
+        if (event.touches && event.touches.length > 1) {
+            touchDeltaXRef.current = 0;
+        } else {
+            touchDeltaXRef.current = event.touches[0].clientX - touchStartXRef.current;
+        }
+        onTouchMove == null || onTouchMove(event);
+    }, [
+        onTouchMove
+    ]);
+    const handleTouchEnd = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])((event)=>{
+        if (touch) {
+            const touchDeltaX = touchDeltaXRef.current;
+            if (Math.abs(touchDeltaX) > SWIPE_THRESHOLD) {
+                if (touchDeltaX > 0) {
+                    prev(event);
+                } else {
+                    next(event);
+                }
+            }
+        }
+        if (pause === 'hover') {
+            touchUnpauseTimeout.set(()=>{
+                setPaused(false);
+            }, interval || undefined);
+        }
+        onTouchEnd == null || onTouchEnd(event);
+    }, [
+        touch,
+        pause,
+        prev,
+        next,
+        touchUnpauseTimeout,
+        interval,
+        onTouchEnd
+    ]);
+    const shouldPlay = interval != null && !paused && !isSliding;
+    const intervalHandleRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])();
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        var _ref, _activeChildIntervalR;
+        if (!shouldPlay) {
+            return undefined;
+        }
+        const nextFunc = isRTL ? prev : next;
+        intervalHandleRef.current = window.setInterval(document.visibilityState ? nextWhenVisible : nextFunc, (_ref = (_activeChildIntervalR = activeChildIntervalRef.current) != null ? _activeChildIntervalR : interval) != null ? _ref : undefined);
+        return ()=>{
+            if (intervalHandleRef.current !== null) {
+                clearInterval(intervalHandleRef.current);
+            }
+        };
+    }, [
+        shouldPlay,
+        prev,
+        next,
+        activeChildIntervalRef,
+        interval,
+        nextWhenVisible,
+        isRTL
+    ]);
+    const indicatorOnClicks = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>indicators && Array.from({
+            length: numChildren
+        }, (_, index)=>(event)=>{
+                onSelect == null || onSelect(index, event);
+            }), [
+        indicators,
+        numChildren,
+        onSelect
+    ]);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxs"])(Component, {
+        ref: elementRef,
+        ...props,
+        onKeyDown: handleKeyDown,
+        onMouseOver: handleMouseOver,
+        onMouseOut: handleMouseOut,
+        onTouchStart: handleTouchStart,
+        onTouchMove: handleTouchMove,
+        onTouchEnd: handleTouchEnd,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, prefix, slide && 'slide', fade && `${prefix}-fade`, variant && `${prefix}-${variant}`),
+        children: [
+            indicators && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])("div", {
+                className: `${prefix}-indicators`,
+                children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ElementChildren$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["map"])(children, (_, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])("button", {
+                        type: "button",
+                        "data-bs-target": "" // Bootstrap requires this in their css.
+                        ,
+                        "aria-label": indicatorLabels != null && indicatorLabels.length ? indicatorLabels[index] : `Slide ${index + 1}`,
+                        className: index === renderedActiveIndex ? 'active' : undefined,
+                        onClick: indicatorOnClicks ? indicatorOnClicks[index] : undefined,
+                        "aria-current": index === renderedActiveIndex
+                    }, index))
+            }),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])("div", {
+                className: `${prefix}-inner`,
+                children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ElementChildren$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["map"])(children, (child, index)=>{
+                    const isActive = index === renderedActiveIndex;
+                    return slide ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$TransitionWrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                        in: isActive,
+                        onEnter: isActive ? handleEnter : undefined,
+                        onEntered: isActive ? handleEntered : undefined,
+                        addEndListener: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$transitionEndListener$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
+                        children: (status, innerProps)=>/*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cloneElement"](child, {
+                                ...innerProps,
+                                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(child.props.className, isActive && status !== 'entered' && orderClassName, (status === 'entered' || status === 'exiting') && 'active', (status === 'entering' || status === 'exiting') && directionalClassName)
+                            })
+                    }) : /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cloneElement"](child, {
+                        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(child.props.className, isActive && 'active')
+                    });
+                })
+            }),
+            controls && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxs"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
+                children: [
+                    (wrap || activeIndex !== 0) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxs"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$ui$2f$cjs$2f$Anchor$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                        className: `${prefix}-control-prev`,
+                        onClick: prev,
+                        children: [
+                            prevIcon,
+                            prevLabel && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])("span", {
+                                className: "visually-hidden",
+                                children: prevLabel
+                            })
+                        ]
+                    }),
+                    (wrap || activeIndex !== numChildren - 1) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxs"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$ui$2f$cjs$2f$Anchor$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                        className: `${prefix}-control-next`,
+                        onClick: next,
+                        children: [
+                            nextIcon,
+                            nextLabel && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])("span", {
+                                className: "visually-hidden",
+                                children: nextLabel
+                            })
+                        ]
+                    })
+                ]
+            })
+        ]
+    });
+});
+Carousel.displayName = 'Carousel';
+const __TURBOPACK__default__export__ = Object.assign(Carousel, {
+    Caption: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CarouselCaption$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
+    Item: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CarouselItem$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]
+});
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/Carousel.js [app-ssr] (ecmascript) <export default as Carousel>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Carousel",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Carousel$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Carousel$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/Carousel.js [app-ssr] (ecmascript)");
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/Container.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+const Container = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ bsPrefix, fluid = false, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+as: Component = 'div', className, ...props }, ref)=>{
+    const prefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'container');
+    const suffix = typeof fluid === 'string' ? `-${fluid}` : '-fluid';
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(Component, {
+        ref: ref,
+        ...props,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, fluid ? `${prefix}${suffix}` : prefix)
+    });
+});
+Container.displayName = 'Container';
+const __TURBOPACK__default__export__ = Container;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/Container.js [app-ssr] (ecmascript) <export default as Container>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Container",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Container$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Container$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/Container.js [app-ssr] (ecmascript)");
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/NavbarBrand.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+const NavbarBrand = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ bsPrefix, className, as, ...props }, ref)=>{
+    bsPrefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'navbar-brand');
+    const Component = as || (props.href ? 'a' : 'span');
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(Component, {
+        ...props,
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, bsPrefix)
+    });
+});
+NavbarBrand.displayName = 'NavbarBrand';
+const __TURBOPACK__default__export__ = NavbarBrand;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/createChainedFunction.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * Safe chained function
+ *
+ * Will only create a new function if needed,
+ * otherwise will pass back existing functions or null.
+ *
+ * @param {function} functions to chain
+ * @returns {function|null}
+ */ __turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+function createChainedFunction(...funcs) {
+    return funcs.filter((f)=>f != null).reduce((acc, f)=>{
+        if (typeof f !== 'function') {
+            throw new Error('Invalid Argument Type, must only provide functions, undefined, or null.');
+        }
+        if (acc === null) return f;
+        return function chainedFunction(...args) {
+            // @ts-expect-error ignore "this" error
+            acc.apply(this, args);
+            // @ts-expect-error ignore "this" error
+            f.apply(this, args);
+        };
+    }, null);
+}
+const __TURBOPACK__default__export__ = createChainedFunction;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/Collapse.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$dom$2d$helpers$2f$esm$2f$css$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/dom-helpers/esm/css.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$transition$2d$group$2f$esm$2f$Transition$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-transition-group/esm/Transition.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$ui$2f$cjs$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/@restart/ui/cjs/utils.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$transitionEndListener$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/transitionEndListener.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$createChainedFunction$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/createChainedFunction.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$triggerBrowserReflow$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/triggerBrowserReflow.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$TransitionWrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/TransitionWrapper.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const MARGINS = {
+    height: [
+        'marginTop',
+        'marginBottom'
+    ],
+    width: [
+        'marginLeft',
+        'marginRight'
+    ]
+};
+function getDefaultDimensionValue(dimension, elem) {
+    const offset = `offset${dimension[0].toUpperCase()}${dimension.slice(1)}`;
+    const value = elem[offset];
+    const margins = MARGINS[dimension];
+    return value + // @ts-expect-error TODO
+    parseInt((0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$dom$2d$helpers$2f$esm$2f$css$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(elem, margins[0]), 10) + // @ts-expect-error TODO
+    parseInt((0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$dom$2d$helpers$2f$esm$2f$css$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(elem, margins[1]), 10);
+}
+const collapseStyles = {
+    [__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$transition$2d$group$2f$esm$2f$Transition$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["EXITED"]]: 'collapse',
+    [__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$transition$2d$group$2f$esm$2f$Transition$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["EXITING"]]: 'collapsing',
+    [__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$transition$2d$group$2f$esm$2f$Transition$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ENTERING"]]: 'collapsing',
+    [__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$transition$2d$group$2f$esm$2f$Transition$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ENTERED"]]: 'collapse show'
+};
+const Collapse = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].forwardRef(({ onEnter, onEntering, onEntered, onExit, onExiting, className, children, dimension = 'height', in: inProp = false, timeout = 300, mountOnEnter = false, unmountOnExit = false, appear = false, getDimensionValue = getDefaultDimensionValue, ...props }, ref)=>{
+    /* Compute dimension */ const computedDimension = typeof dimension === 'function' ? dimension() : dimension;
+    /* -- Expanding -- */ const handleEnter = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$createChainedFunction$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])((elem)=>{
+            elem.style[computedDimension] = '0';
+        }, onEnter), [
+        computedDimension,
+        onEnter
+    ]);
+    const handleEntering = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$createChainedFunction$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])((elem)=>{
+            const scroll = `scroll${computedDimension[0].toUpperCase()}${computedDimension.slice(1)}`;
+            elem.style[computedDimension] = `${elem[scroll]}px`;
+        }, onEntering), [
+        computedDimension,
+        onEntering
+    ]);
+    const handleEntered = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$createChainedFunction$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])((elem)=>{
+            elem.style[computedDimension] = null;
+        }, onEntered), [
+        computedDimension,
+        onEntered
+    ]);
+    /* -- Collapsing -- */ const handleExit = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$createChainedFunction$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])((elem)=>{
+            elem.style[computedDimension] = `${getDimensionValue(computedDimension, elem)}px`;
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$triggerBrowserReflow$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(elem);
+        }, onExit), [
+        onExit,
+        getDimensionValue,
+        computedDimension
+    ]);
+    const handleExiting = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$createChainedFunction$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])((elem)=>{
+            elem.style[computedDimension] = null;
+        }, onExiting), [
+        computedDimension,
+        onExiting
+    ]);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$TransitionWrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+        ref: ref,
+        addEndListener: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$transitionEndListener$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
+        ...props,
+        "aria-expanded": props.role ? inProp : null,
+        onEnter: handleEnter,
+        onEntering: handleEntering,
+        onEntered: handleEntered,
+        onExit: handleExit,
+        onExiting: handleExiting,
+        childRef: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$ui$2f$cjs$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getChildRef"])(children),
+        in: inProp,
+        timeout: timeout,
+        mountOnEnter: mountOnEnter,
+        unmountOnExit: unmountOnExit,
+        appear: appear,
+        children: (state, innerProps)=>/*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].cloneElement(children, {
+                ...innerProps,
+                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, children.props.className, collapseStyles[state], computedDimension === 'width' && 'collapse-horizontal')
+            })
+    });
+});
+Collapse.displayName = 'Collapse';
+const __TURBOPACK__default__export__ = Collapse;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/NavbarContext.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+"use client";
+;
+// TODO: check
+const context = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createContext"](null);
+context.displayName = 'NavbarContext';
+const __TURBOPACK__default__export__ = context;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/NavbarCollapse.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Collapse$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/Collapse.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$NavbarContext$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/NavbarContext.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+;
+const NavbarCollapse = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ children, bsPrefix, ...props }, ref)=>{
+    bsPrefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'navbar-collapse');
+    const context = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useContext"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$NavbarContext$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Collapse$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+        in: !!(context && context.expanded),
+        ...props,
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])("div", {
+            ref: ref,
+            className: bsPrefix,
+            children: children
+        })
+    });
+});
+NavbarCollapse.displayName = 'NavbarCollapse';
+const __TURBOPACK__default__export__ = NavbarCollapse;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/NavbarToggle.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$hooks$2f$esm$2f$useEventCallback$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/@restart/hooks/esm/useEventCallback.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$NavbarContext$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/NavbarContext.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+;
+;
+const NavbarToggle = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ bsPrefix, className, children, label = 'Toggle navigation', // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+as: Component = 'button', onClick, ...props }, ref)=>{
+    bsPrefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'navbar-toggler');
+    const { onToggle, expanded } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useContext"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$NavbarContext$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]) || {};
+    const handleClick = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$hooks$2f$esm$2f$useEventCallback$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])((e)=>{
+        if (onClick) onClick(e);
+        if (onToggle) onToggle();
+    });
+    if (Component === 'button') {
+        props.type = 'button';
+    }
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(Component, {
+        ...props,
+        ref: ref,
+        onClick: handleClick,
+        "aria-label": label,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, bsPrefix, !expanded && 'collapsed'),
+        children: children || /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])("span", {
+            className: `${bsPrefix}-icon`
+        })
+    });
+});
+NavbarToggle.displayName = 'NavbarToggle';
+const __TURBOPACK__default__export__ = NavbarToggle;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/Fade.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$transition$2d$group$2f$esm$2f$Transition$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-transition-group/esm/Transition.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$ui$2f$cjs$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/@restart/ui/cjs/utils.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$transitionEndListener$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/transitionEndListener.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$triggerBrowserReflow$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/triggerBrowserReflow.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$TransitionWrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/TransitionWrapper.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const fadeStyles = {
+    [__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$transition$2d$group$2f$esm$2f$Transition$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ENTERING"]]: 'show',
+    [__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$transition$2d$group$2f$esm$2f$Transition$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ENTERED"]]: 'show'
+};
+const Fade = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ className, children, transitionClasses = {}, onEnter, ...rest }, ref)=>{
+    const props = {
+        in: false,
+        timeout: 300,
+        mountOnEnter: false,
+        unmountOnExit: false,
+        appear: false,
+        ...rest
+    };
+    const handleEnter = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])((node, isAppearing)=>{
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$triggerBrowserReflow$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(node);
+        onEnter == null || onEnter(node, isAppearing);
+    }, [
+        onEnter
+    ]);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$TransitionWrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+        ref: ref,
+        addEndListener: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$transitionEndListener$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
+        ...props,
+        onEnter: handleEnter,
+        childRef: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$ui$2f$cjs$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getChildRef"])(children),
+        children: (status, innerProps)=>/*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cloneElement"](children, {
+                ...innerProps,
+                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])('fade', className, children.props.className, fadeStyles[status], transitionClasses[status])
+            })
+    });
+});
+Fade.displayName = 'Fade';
+const __TURBOPACK__default__export__ = Fade;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/OffcanvasBody.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+const OffcanvasBody = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ className, bsPrefix, as: Component = 'div', ...props }, ref)=>{
+    bsPrefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'offcanvas-body');
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(Component, {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, bsPrefix),
+        ...props
+    });
+});
+OffcanvasBody.displayName = 'OffcanvasBody';
+const __TURBOPACK__default__export__ = OffcanvasBody;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/OffcanvasToggling.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$transition$2d$group$2f$esm$2f$Transition$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-transition-group/esm/Transition.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$ui$2f$cjs$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/@restart/ui/cjs/utils.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$transitionEndListener$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/transitionEndListener.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$TransitionWrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/TransitionWrapper.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+;
+;
+;
+const transitionStyles = {
+    [__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$transition$2d$group$2f$esm$2f$Transition$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ENTERING"]]: 'show',
+    [__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$transition$2d$group$2f$esm$2f$Transition$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ENTERED"]]: 'show'
+};
+const OffcanvasToggling = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ bsPrefix, className, children, in: inProp = false, mountOnEnter = false, unmountOnExit = false, appear = false, ...props }, ref)=>{
+    bsPrefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'offcanvas');
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$TransitionWrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+        ref: ref,
+        addEndListener: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$transitionEndListener$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
+        in: inProp,
+        mountOnEnter: mountOnEnter,
+        unmountOnExit: unmountOnExit,
+        appear: appear,
+        ...props,
+        childRef: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$ui$2f$cjs$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getChildRef"])(children),
+        children: (status, innerProps)=>/*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cloneElement"](children, {
+                ...innerProps,
+                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, children.props.className, (status === __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$transition$2d$group$2f$esm$2f$Transition$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ENTERING"] || status === __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$transition$2d$group$2f$esm$2f$Transition$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["EXITING"]) && `${bsPrefix}-toggling`, transitionStyles[status])
+            })
+    });
+});
+OffcanvasToggling.displayName = 'OffcanvasToggling';
+const __TURBOPACK__default__export__ = OffcanvasToggling;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ModalContext.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+"use client";
+;
+const ModalContext = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createContext"]({
+    onHide () {}
+});
+const __TURBOPACK__default__export__ = ModalContext;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CloseButton.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/prop-types/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+;
+;
+;
+;
+const propTypes = {
+    /** An accessible label indicating the relevant information about the Close Button. */ 'aria-label': __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].string,
+    /** A callback fired after the Close Button is clicked. */ onClick: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Render different color variant for the button.
+   *
+   * Omitting this will render the default dark color.
+   */ variant: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].oneOf([
+        'white'
+    ])
+};
+const CloseButton = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ className, variant, 'aria-label': ariaLabel = 'Close', ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])("button", {
+        ref: ref,
+        type: "button",
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])('btn-close', variant && `btn-close-${variant}`, className),
+        "aria-label": ariaLabel,
+        ...props
+    }));
+CloseButton.displayName = 'CloseButton';
+CloseButton.propTypes = propTypes;
+const __TURBOPACK__default__export__ = CloseButton;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/AbstractModalHeader.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$hooks$2f$esm$2f$useEventCallback$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/@restart/hooks/esm/useEventCallback.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CloseButton$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CloseButton.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ModalContext$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ModalContext.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+;
+;
+const AbstractModalHeader = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ closeLabel = 'Close', closeVariant, closeButton = false, onHide, children, ...props }, ref)=>{
+    const context = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useContext"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ModalContext$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]);
+    const handleClick = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$hooks$2f$esm$2f$useEventCallback$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(()=>{
+        context == null || context.onHide();
+        onHide == null || onHide();
+    });
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxs"])("div", {
+        ref: ref,
+        ...props,
+        children: [
+            children,
+            closeButton && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CloseButton$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                "aria-label": closeLabel,
+                variant: closeVariant,
+                onClick: handleClick
+            })
+        ]
+    });
+});
+AbstractModalHeader.displayName = 'AbstractModalHeader';
+const __TURBOPACK__default__export__ = AbstractModalHeader;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/OffcanvasHeader.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$AbstractModalHeader$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/AbstractModalHeader.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+const OffcanvasHeader = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ bsPrefix, className, closeLabel = 'Close', closeButton = false, ...props }, ref)=>{
+    bsPrefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'offcanvas-header');
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$AbstractModalHeader$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+        ref: ref,
+        ...props,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, bsPrefix),
+        closeLabel: closeLabel,
+        closeButton: closeButton
+    });
+});
+OffcanvasHeader.displayName = 'OffcanvasHeader';
+const __TURBOPACK__default__export__ = OffcanvasHeader;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/divWithClassName.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+;
+;
+;
+const __TURBOPACK__default__export__ = (className)=>/*#__PURE__*/ // eslint-disable-next-line react/display-name
+    __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"]((p, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])("div", {
+            ...p,
+            ref: ref,
+            className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(p.className, className)
+        }));
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/OffcanvasTitle.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$divWithClassName$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/divWithClassName.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+const DivStyledAsH5 = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$divWithClassName$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])('h5');
+const OffcanvasTitle = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ className, bsPrefix, as: Component = DivStyledAsH5, ...props }, ref)=>{
+    bsPrefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'offcanvas-title');
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(Component, {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, bsPrefix),
+        ...props
+    });
+});
+OffcanvasTitle.displayName = 'OffcanvasTitle';
+const __TURBOPACK__default__export__ = OffcanvasTitle;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/BootstrapModalManager.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__,
+    "getSharedManager",
+    ()=>getSharedManager
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$dom$2d$helpers$2f$esm$2f$addClass$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/dom-helpers/esm/addClass.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$dom$2d$helpers$2f$esm$2f$css$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/dom-helpers/esm/css.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$dom$2d$helpers$2f$esm$2f$querySelectorAll$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/dom-helpers/esm/querySelectorAll.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$dom$2d$helpers$2f$esm$2f$removeClass$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/dom-helpers/esm/removeClass.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$ui$2f$cjs$2f$ModalManager$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/@restart/ui/cjs/ModalManager.js [app-ssr] (ecmascript)");
+;
+;
+;
+;
+;
+const Selector = {
+    FIXED_CONTENT: '.fixed-top, .fixed-bottom, .is-fixed, .sticky-top',
+    STICKY_CONTENT: '.sticky-top',
+    NAVBAR_TOGGLER: '.navbar-toggler'
+};
+class BootstrapModalManager extends __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$ui$2f$cjs$2f$ModalManager$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"] {
+    adjustAndStore(prop, element, adjust) {
+        const actual = element.style[prop];
+        // @ts-expect-error TODO: DOMStringMap and CSSStyleDeclaration aren't strictly compatible
+        element.dataset[prop] = actual;
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$dom$2d$helpers$2f$esm$2f$css$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(element, {
+            [prop]: `${parseFloat((0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$dom$2d$helpers$2f$esm$2f$css$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(element, prop)) + adjust}px`
+        });
+    }
+    restore(prop, element) {
+        const value = element.dataset[prop];
+        if (value !== undefined) {
+            delete element.dataset[prop];
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$dom$2d$helpers$2f$esm$2f$css$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(element, {
+                [prop]: value
+            });
+        }
+    }
+    setContainerStyle(containerState) {
+        super.setContainerStyle(containerState);
+        const container = this.getElement();
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$dom$2d$helpers$2f$esm$2f$addClass$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(container, 'modal-open');
+        if (!containerState.scrollBarWidth) return;
+        const paddingProp = this.isRTL ? 'paddingLeft' : 'paddingRight';
+        const marginProp = this.isRTL ? 'marginLeft' : 'marginRight';
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$dom$2d$helpers$2f$esm$2f$querySelectorAll$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(container, Selector.FIXED_CONTENT).forEach((el)=>this.adjustAndStore(paddingProp, el, containerState.scrollBarWidth));
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$dom$2d$helpers$2f$esm$2f$querySelectorAll$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(container, Selector.STICKY_CONTENT).forEach((el)=>this.adjustAndStore(marginProp, el, -containerState.scrollBarWidth));
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$dom$2d$helpers$2f$esm$2f$querySelectorAll$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(container, Selector.NAVBAR_TOGGLER).forEach((el)=>this.adjustAndStore(marginProp, el, containerState.scrollBarWidth));
+    }
+    removeContainerStyle(containerState) {
+        super.removeContainerStyle(containerState);
+        const container = this.getElement();
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$dom$2d$helpers$2f$esm$2f$removeClass$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(container, 'modal-open');
+        const paddingProp = this.isRTL ? 'paddingLeft' : 'paddingRight';
+        const marginProp = this.isRTL ? 'marginLeft' : 'marginRight';
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$dom$2d$helpers$2f$esm$2f$querySelectorAll$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(container, Selector.FIXED_CONTENT).forEach((el)=>this.restore(paddingProp, el));
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$dom$2d$helpers$2f$esm$2f$querySelectorAll$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(container, Selector.STICKY_CONTENT).forEach((el)=>this.restore(marginProp, el));
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$dom$2d$helpers$2f$esm$2f$querySelectorAll$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(container, Selector.NAVBAR_TOGGLER).forEach((el)=>this.restore(marginProp, el));
+    }
+}
+let sharedManager;
+function getSharedManager(options) {
+    if (!sharedManager) sharedManager = new BootstrapModalManager(options);
+    return sharedManager;
+}
+const __TURBOPACK__default__export__ = BootstrapModalManager;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/Offcanvas.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$hooks$2f$esm$2f$useBreakpoint$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/@restart/hooks/esm/useBreakpoint.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$hooks$2f$esm$2f$useEventCallback$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/@restart/hooks/esm/useEventCallback.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$ui$2f$cjs$2f$Modal$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/@restart/ui/cjs/Modal.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Fade$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/Fade.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$OffcanvasBody$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/OffcanvasBody.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$OffcanvasToggling$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/OffcanvasToggling.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ModalContext$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ModalContext.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$OffcanvasHeader$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/OffcanvasHeader.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$OffcanvasTitle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/OffcanvasTitle.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$BootstrapModalManager$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/BootstrapModalManager.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+function DialogTransition(props) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$OffcanvasToggling$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+        ...props
+    });
+}
+function BackdropTransition(props) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Fade$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+        ...props
+    });
+}
+const Offcanvas = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ bsPrefix, className, children, 'aria-labelledby': ariaLabelledby, placement = 'start', responsive, /* BaseModal props */ show = false, backdrop = true, keyboard = true, scroll = false, onEscapeKeyDown, onShow, onHide, container, autoFocus = true, enforceFocus = true, restoreFocus = true, restoreFocusOptions, onEntered, onExit, onExiting, onEnter, onEntering, onExited, backdropClassName, manager: propsManager, renderStaticNode = false, ...props }, ref)=>{
+    const modalManager = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])();
+    bsPrefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'offcanvas');
+    const [showOffcanvas, setShowOffcanvas] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    const handleHide = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$hooks$2f$esm$2f$useEventCallback$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(onHide);
+    const hideResponsiveOffcanvas = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$hooks$2f$esm$2f$useBreakpoint$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(responsive || 'xs', 'up');
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        // Handles the case where screen is resized while the responsive
+        // offcanvas is shown. If `responsive` not provided, just use `show`.
+        setShowOffcanvas(responsive ? show && !hideResponsiveOffcanvas : show);
+    }, [
+        show,
+        responsive,
+        hideResponsiveOffcanvas
+    ]);
+    const modalContext = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>({
+            onHide: handleHide
+        }), [
+        handleHide
+    ]);
+    function getModalManager() {
+        if (propsManager) return propsManager;
+        if (scroll) {
+            // Have to use a different modal manager since the shared
+            // one handles overflow.
+            if (!modalManager.current) modalManager.current = new __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$BootstrapModalManager$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]({
+                handleContainerOverflow: false
+            });
+            return modalManager.current;
+        }
+        return (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$BootstrapModalManager$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getSharedManager"])();
+    }
+    const handleEnter = (node, ...args)=>{
+        if (node) node.style.visibility = 'visible';
+        onEnter == null || onEnter(node, ...args);
+    };
+    const handleExited = (node, ...args)=>{
+        if (node) node.style.visibility = '';
+        onExited == null || onExited(...args);
+    };
+    const renderBackdrop = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])((backdropProps)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])("div", {
+            ...backdropProps,
+            className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(`${bsPrefix}-backdrop`, backdropClassName)
+        }), [
+        backdropClassName,
+        bsPrefix
+    ]);
+    const renderDialog = (dialogProps)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])("div", {
+            ...dialogProps,
+            ...props,
+            className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, responsive ? `${bsPrefix}-${responsive}` : bsPrefix, `${bsPrefix}-${placement}`),
+            "aria-labelledby": ariaLabelledby,
+            children: children
+        });
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxs"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: [
+            !showOffcanvas && (responsive || renderStaticNode) && renderDialog({}),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ModalContext$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].Provider, {
+                value: modalContext,
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$ui$2f$cjs$2f$Modal$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                    show: showOffcanvas,
+                    ref: ref,
+                    backdrop: backdrop,
+                    container: container,
+                    keyboard: keyboard,
+                    autoFocus: autoFocus,
+                    enforceFocus: enforceFocus && !scroll,
+                    restoreFocus: restoreFocus,
+                    restoreFocusOptions: restoreFocusOptions,
+                    onEscapeKeyDown: onEscapeKeyDown,
+                    onShow: onShow,
+                    onHide: handleHide,
+                    onEnter: handleEnter,
+                    onEntering: onEntering,
+                    onEntered: onEntered,
+                    onExit: onExit,
+                    onExiting: onExiting,
+                    onExited: handleExited,
+                    manager: getModalManager(),
+                    transition: DialogTransition,
+                    backdropTransition: BackdropTransition,
+                    renderBackdrop: renderBackdrop,
+                    renderDialog: renderDialog
+                })
+            })
+        ]
+    });
+});
+Offcanvas.displayName = 'Offcanvas';
+const __TURBOPACK__default__export__ = Object.assign(Offcanvas, {
+    Body: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$OffcanvasBody$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
+    Header: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$OffcanvasHeader$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
+    Title: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$OffcanvasTitle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]
+});
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/NavbarOffcanvas.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$hooks$2f$esm$2f$useEventCallback$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/@restart/hooks/esm/useEventCallback.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Offcanvas$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/Offcanvas.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$NavbarContext$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/NavbarContext.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+;
+const NavbarOffcanvas = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ onHide, ...props }, ref)=>{
+    const context = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useContext"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$NavbarContext$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]);
+    const handleHide = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$hooks$2f$esm$2f$useEventCallback$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(()=>{
+        context == null || context.onToggle == null || context.onToggle();
+        onHide == null || onHide();
+    });
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Offcanvas$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+        ref: ref,
+        show: !!(context != null && context.expanded),
+        ...props,
+        renderStaticNode: true,
+        onHide: handleHide
+    });
+});
+NavbarOffcanvas.displayName = 'NavbarOffcanvas';
+const __TURBOPACK__default__export__ = NavbarOffcanvas;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/NavbarText.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+const NavbarText = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ className, bsPrefix, as: Component = 'span', ...props }, ref)=>{
+    bsPrefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'navbar-text');
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(Component, {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, bsPrefix),
+        ...props
+    });
+});
+NavbarText.displayName = 'NavbarText';
+const __TURBOPACK__default__export__ = NavbarText;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/Navbar.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$ui$2f$cjs$2f$SelectableContext$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/@restart/ui/cjs/SelectableContext.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$uncontrollable$2f$lib$2f$esm$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/uncontrollable/lib/esm/index.js [app-ssr] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$uncontrollable$2f$lib$2f$esm$2f$hook$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__useUncontrolled$3e$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/uncontrollable/lib/esm/hook.js [app-ssr] (ecmascript) <export default as useUncontrolled>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$NavbarBrand$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/NavbarBrand.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$NavbarCollapse$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/NavbarCollapse.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$NavbarToggle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/NavbarToggle.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$NavbarOffcanvas$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/NavbarOffcanvas.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$NavbarContext$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/NavbarContext.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$NavbarText$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/NavbarText.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const Navbar = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"]((props, ref)=>{
+    const { bsPrefix: initialBsPrefix, expand = true, variant = 'light', bg, fixed, sticky, className, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+    as: Component = 'nav', expanded, onToggle, onSelect, collapseOnSelect = false, ...controlledProps } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$uncontrollable$2f$lib$2f$esm$2f$hook$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__useUncontrolled$3e$__["useUncontrolled"])(props, {
+        expanded: 'onToggle'
+    });
+    const bsPrefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(initialBsPrefix, 'navbar');
+    const handleCollapse = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])((...args)=>{
+        onSelect == null || onSelect(...args);
+        if (collapseOnSelect && expanded) {
+            onToggle == null || onToggle(false);
+        }
+    }, [
+        onSelect,
+        collapseOnSelect,
+        expanded,
+        onToggle
+    ]);
+    // will result in some false positives but that seems better
+    // than false negatives. strict `undefined` check allows explicit
+    // "nulling" of the role if the user really doesn't want one
+    if (controlledProps.role === undefined && Component !== 'nav') {
+        controlledProps.role = 'navigation';
+    }
+    let expandClass = `${bsPrefix}-expand`;
+    if (typeof expand === 'string') expandClass = `${expandClass}-${expand}`;
+    const navbarContext = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>({
+            onToggle: ()=>onToggle == null ? void 0 : onToggle(!expanded),
+            bsPrefix,
+            expanded: !!expanded,
+            expand
+        }), [
+        bsPrefix,
+        expanded,
+        expand,
+        onToggle
+    ]);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$NavbarContext$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].Provider, {
+        value: navbarContext,
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$ui$2f$cjs$2f$SelectableContext$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].Provider, {
+            value: handleCollapse,
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(Component, {
+                ref: ref,
+                ...controlledProps,
+                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, bsPrefix, expand && expandClass, variant && `${bsPrefix}-${variant}`, bg && `bg-${bg}`, sticky && `sticky-${sticky}`, fixed && `fixed-${fixed}`)
+            })
+        })
+    });
+});
+Navbar.displayName = 'Navbar';
+const __TURBOPACK__default__export__ = Object.assign(Navbar, {
+    Brand: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$NavbarBrand$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
+    Collapse: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$NavbarCollapse$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
+    Offcanvas: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$NavbarOffcanvas$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
+    Text: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$NavbarText$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
+    Toggle: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$NavbarToggle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]
+});
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/Navbar.js [app-ssr] (ecmascript) <export default as Navbar>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Navbar",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Navbar$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Navbar$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/Navbar.js [app-ssr] (ecmascript)");
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/Button.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$ui$2f$cjs$2f$Button$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/@restart/ui/cjs/Button.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+const Button = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ as, bsPrefix, variant = 'primary', size, active = false, disabled = false, className, ...props }, ref)=>{
+    const prefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'btn');
+    const [buttonProps, { tagName }] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f40$restart$2f$ui$2f$cjs$2f$Button$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useButtonProps"])({
+        tagName: as,
+        disabled,
+        ...props
+    });
+    const Component = tagName;
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(Component, {
+        ...buttonProps,
+        ...props,
+        ref: ref,
+        disabled: disabled,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, prefix, active && 'active', variant && `${prefix}-${variant}`, size && `${prefix}-${size}`, props.href && disabled && 'disabled')
+    });
+});
+Button.displayName = 'Button';
+const __TURBOPACK__default__export__ = Button;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/Button.js [app-ssr] (ecmascript) <export default as Button>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Button",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Button$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Button$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/Button.js [app-ssr] (ecmascript)");
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CardBody.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+const CardBody = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ className, bsPrefix, as: Component = 'div', ...props }, ref)=>{
+    bsPrefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'card-body');
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(Component, {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, bsPrefix),
+        ...props
+    });
+});
+CardBody.displayName = 'CardBody';
+const __TURBOPACK__default__export__ = CardBody;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CardFooter.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+const CardFooter = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ className, bsPrefix, as: Component = 'div', ...props }, ref)=>{
+    bsPrefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'card-footer');
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(Component, {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, bsPrefix),
+        ...props
+    });
+});
+CardFooter.displayName = 'CardFooter';
+const __TURBOPACK__default__export__ = CardFooter;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CardHeaderContext.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+"use client";
+;
+const context = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createContext"](null);
+context.displayName = 'CardHeaderContext';
+const __TURBOPACK__default__export__ = context;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CardHeader.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CardHeaderContext$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CardHeaderContext.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+;
+const CardHeader = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ bsPrefix, className, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+as: Component = 'div', ...props }, ref)=>{
+    const prefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'card-header');
+    const contextValue = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>({
+            cardHeaderBsPrefix: prefix
+        }), [
+        prefix
+    ]);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CardHeaderContext$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].Provider, {
+        value: contextValue,
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(Component, {
+            ref: ref,
+            ...props,
+            className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, prefix)
+        })
+    });
+});
+CardHeader.displayName = 'CardHeader';
+const __TURBOPACK__default__export__ = CardHeader;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CardImg.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+const CardImg = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](// Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+({ bsPrefix, className, variant, as: Component = 'img', ...props }, ref)=>{
+    const prefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'card-img');
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(Component, {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(variant ? `${prefix}-${variant}` : prefix, className),
+        ...props
+    });
+});
+CardImg.displayName = 'CardImg';
+const __TURBOPACK__default__export__ = CardImg;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CardImgOverlay.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+const CardImgOverlay = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ className, bsPrefix, as: Component = 'div', ...props }, ref)=>{
+    bsPrefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'card-img-overlay');
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(Component, {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, bsPrefix),
+        ...props
+    });
+});
+CardImgOverlay.displayName = 'CardImgOverlay';
+const __TURBOPACK__default__export__ = CardImgOverlay;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CardLink.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+const CardLink = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ className, bsPrefix, as: Component = 'a', ...props }, ref)=>{
+    bsPrefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'card-link');
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(Component, {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, bsPrefix),
+        ...props
+    });
+});
+CardLink.displayName = 'CardLink';
+const __TURBOPACK__default__export__ = CardLink;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CardSubtitle.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$divWithClassName$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/divWithClassName.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+const DivStyledAsH6 = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$divWithClassName$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])('h6');
+const CardSubtitle = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ className, bsPrefix, as: Component = DivStyledAsH6, ...props }, ref)=>{
+    bsPrefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'card-subtitle');
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(Component, {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, bsPrefix),
+        ...props
+    });
+});
+CardSubtitle.displayName = 'CardSubtitle';
+const __TURBOPACK__default__export__ = CardSubtitle;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CardText.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+const CardText = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ className, bsPrefix, as: Component = 'p', ...props }, ref)=>{
+    bsPrefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'card-text');
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(Component, {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, bsPrefix),
+        ...props
+    });
+});
+CardText.displayName = 'CardText';
+const __TURBOPACK__default__export__ = CardText;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CardTitle.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$divWithClassName$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/divWithClassName.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+const DivStyledAsH5 = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$divWithClassName$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])('h5');
+const CardTitle = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ className, bsPrefix, as: Component = DivStyledAsH5, ...props }, ref)=>{
+    bsPrefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'card-title');
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(Component, {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, bsPrefix),
+        ...props
+    });
+});
+CardTitle.displayName = 'CardTitle';
+const __TURBOPACK__default__export__ = CardTitle;
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/Card.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/ThemeProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CardBody$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CardBody.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CardFooter$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CardFooter.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CardHeader$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CardHeader.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CardImg$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CardImg.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CardImgOverlay$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CardImgOverlay.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CardLink$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CardLink.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CardSubtitle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CardSubtitle.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CardText$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CardText.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CardTitle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/CardTitle.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const Card = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"](({ bsPrefix, className, bg, text, border, body = false, children, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+as: Component = 'div', ...props }, ref)=>{
+    const prefix = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$ThemeProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useBootstrapPrefix"])(bsPrefix, 'card');
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(Component, {
+        ref: ref,
+        ...props,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(className, prefix, bg && `bg-${bg}`, text && `text-${text}`, border && `border-${border}`),
+        children: body ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CardBody$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+            children: children
+        }) : children
+    });
+});
+Card.displayName = 'Card';
+const __TURBOPACK__default__export__ = Object.assign(Card, {
+    Img: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CardImg$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
+    Title: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CardTitle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
+    Subtitle: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CardSubtitle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
+    Body: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CardBody$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
+    Link: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CardLink$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
+    Text: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CardText$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
+    Header: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CardHeader$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
+    Footer: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CardFooter$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
+    ImgOverlay: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$CardImgOverlay$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]
+});
+}),
+"[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/Card.js [app-ssr] (ecmascript) <export default as Card>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Card",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Card$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Tosiq$2d$web12$2f$cms$2f$repairs$2e$cms$2f$frontend$2f$user$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Card$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Tosiq-web12/cms/repairs.cms/frontend/user/node_modules/react-bootstrap/esm/Card.js [app-ssr] (ecmascript)");
+}),
+];
+
+//# sourceMappingURL=5797f_react-bootstrap_esm_f4b326c1._.js.map
